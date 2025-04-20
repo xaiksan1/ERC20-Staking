@@ -1,4 +1,4 @@
-/* App.test.js */                                                                                                                                                                                                                                                                            const ax = require('axios');
+/* App.test.js */ const ax = require('axios');
 const ContractAddress = require('./helpers/ContractAddress.js');
 const Formatters = require('./helpers/formatters.js');
 const Networks = require('./helpers/networks.js');

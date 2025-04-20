@@ -1,0 +1,121 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1044pt" height="188pt" viewBox="0.00 0.00 1044.13 188.00">
+<g id="graph0" class="graph" transform="translate(4,184) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-184 1040.13,-184 1040.13,4 -4,4" style=""/>
+<!-- Context -->
+<g id="node1" class="node" pointer-events="visible" data-name="Context">
+
+<ellipse fill="none" stroke="black" cx="60.57" cy="-18" rx="41.73" ry="18" style=""/>
+<text text-anchor="middle" x="60.57" y="-13.8" font-family="Times,serif" font-size="14.00" style="">Context</text>
+</g>
+<!-- Ownable -->
+<g id="node2" class="node" pointer-events="visible" data-name="Ownable">
+
+<ellipse fill="none" stroke="black" cx="60.57" cy="-90" rx="45.79" ry="18" style=""/>
+<text text-anchor="middle" x="60.57" y="-85.8" font-family="Times,serif" font-size="14.00" style="">Ownable</text>
+</g>
+<!-- Ownable&#45;&gt;Context -->
+<g id="edge1" class="edge" data-name="Ownable-&gt;Context">
+
+<path fill="none" stroke="black" d="M54.65,-71.7C53.9,-64.41 53.66,-55.73 53.92,-47.54" style=""/>
+<polygon fill="black" stroke="black" points="57.41,-47.82 54.57,-37.61 50.43,-47.36 57.41,-47.82" style=""/>
+</g>
+<!-- Ownable&#45;&gt;Context -->
+<g id="edge4" class="edge" data-name="Ownable-&gt;Context">
+
+<path fill="none" stroke="black" d="M66.48,-71.7C67.24,-64.41 67.48,-55.73 67.21,-47.54" style=""/>
+<polygon fill="black" stroke="black" points="70.71,-47.36 66.56,-37.61 63.73,-47.82 70.71,-47.36" style=""/>
+</g>
+<!-- ReentrancyGuard -->
+<g id="node3" class="node" pointer-events="visible" data-name="ReentrancyGuard">
+
+<ellipse fill="none" stroke="black" cx="417.57" cy="-90" rx="79.28" ry="18" style=""/>
+<text text-anchor="middle" x="417.57" y="-85.8" font-family="Times,serif" font-size="14.00" style="">ReentrancyGuard</text>
+</g>
+<!-- TransferHelper -->
+<g id="node4" class="node" pointer-events="visible" data-name="TransferHelper">
+
+<ellipse fill="none" stroke="black" cx="563.57" cy="-162" rx="70.03" ry="18" style=""/>
+<text text-anchor="middle" x="563.57" y="-157.8" font-family="Times,serif" font-size="14.00" style="">TransferHelper</text>
+</g>
+<!-- EnumerableSet -->
+<g id="node5" class="node" pointer-events="visible" data-name="EnumerableSet">
+
+<ellipse fill="none" stroke="black" cx="721.57" cy="-162" rx="70.06" ry="18" style=""/>
+<text text-anchor="middle" x="721.57" y="-157.8" font-family="Times,serif" font-size="14.00" style="">EnumerableSet</text>
+</g>
+<!-- IERC20 -->
+<g id="node6" class="node" pointer-events="visible" data-name="IERC20">
+
+<ellipse fill="none" stroke="black" cx="201.57" cy="-18" rx="42.88" ry="18" style=""/>
+<text text-anchor="middle" x="201.57" y="-13.8" font-family="Times,serif" font-size="14.00" style="">IERC20</text>
+</g>
+<!-- ELOPresale -->
+<g id="node7" class="node" pointer-events="visible" data-name="ELOPresale">
+
+<ellipse fill="none" stroke="black" cx="417.57" cy="-162" rx="57.89" ry="18" style=""/>
+<text text-anchor="middle" x="417.57" y="-157.8" font-family="Times,serif" font-size="14.00" style="">ELOPresale</text>
+</g>
+<!-- ELOPresale&#45;&gt;ReentrancyGuard -->
+<g id="edge2" class="edge" data-name="ELOPresale-&gt;ReentrancyGuard">
+
+<path fill="none" stroke="black" d="M417.57,-143.7C417.57,-136.41 417.57,-127.73 417.57,-119.54" style=""/>
+<polygon fill="black" stroke="black" points="421.07,-119.62 417.57,-109.62 414.07,-119.62 421.07,-119.62" style=""/>
+</g>
+<!-- IERC20Metadata -->
+<g id="node8" class="node" pointer-events="visible" data-name="IERC20Metadata">
+
+<ellipse fill="none" stroke="black" cx="241.57" cy="-90" rx="78.73" ry="18" style=""/>
+<text text-anchor="middle" x="241.57" y="-85.8" font-family="Times,serif" font-size="14.00" style="">IERC20Metadata</text>
+</g>
+<!-- IERC20Metadata&#45;&gt;IERC20 -->
+<g id="edge3" class="edge" data-name="IERC20Metadata-&gt;IERC20">
+
+<path fill="none" stroke="black" d="M231.68,-71.7C227.16,-63.78 221.7,-54.23 216.68,-45.44" style=""/>
+<polygon fill="black" stroke="black" points="219.82,-43.88 211.82,-36.94 213.74,-47.36 219.82,-43.88" style=""/>
+</g>
+<!-- SafeMath -->
+<g id="node9" class="node" pointer-events="visible" data-name="SafeMath">
+
+<ellipse fill="none" stroke="black" cx="858.57" cy="-162" rx="48.66" ry="18" style=""/>
+<text text-anchor="middle" x="858.57" y="-157.8" font-family="Times,serif" font-size="14.00" style="">SafeMath</text>
+</g>
+<!-- ELOToken -->
+<g id="node10" class="node" pointer-events="visible" data-name="ELOToken">
+
+<ellipse fill="none" stroke="black" cx="97.57" cy="-162" rx="54.46" ry="18" style=""/>
+<text text-anchor="middle" x="97.57" y="-157.8" font-family="Times,serif" font-size="14.00" style="">ELOToken</text>
+</g>
+<!-- ELOToken&#45;&gt;Context -->
+<g id="edge5" class="edge" data-name="ELOToken-&gt;Context">
+
+<path fill="none" stroke="black" d="M58.54,-149.04C38.95,-140.84 17.01,-127.79 5.57,-108 -2.44,-94.15 -0.69,-86.72 5.57,-72 10.69,-59.95 20.05,-49.31 29.61,-40.78" style=""/>
+<polygon fill="black" stroke="black" points="31.69,-43.6 37.17,-34.53 27.23,-38.21 31.69,-43.6" style=""/>
+</g>
+<!-- ELOToken&#45;&gt;Ownable -->
+<g id="edge8" class="edge" data-name="ELOToken-&gt;Ownable">
+
+<path fill="none" stroke="black" d="M88.61,-144.05C84.43,-136.14 79.35,-126.54 74.67,-117.69" style=""/>
+<polygon fill="black" stroke="black" points="77.92,-116.33 70.15,-109.13 71.73,-119.6 77.92,-116.33" style=""/>
+</g>
+<!-- ELOToken&#45;&gt;IERC20 -->
+<g id="edge6" class="edge" data-name="ELOToken-&gt;IERC20">
+
+<path fill="none" stroke="black" d="M107.06,-144.02C117.58,-125.67 135.48,-95.86 153.57,-72 160.99,-62.21 169.85,-52.06 177.93,-43.3" style=""/>
+<polygon fill="black" stroke="black" points="180.33,-45.86 184.63,-36.17 175.23,-41.07 180.33,-45.86" style=""/>
+</g>
+<!-- ELOToken&#45;&gt;IERC20Metadata -->
+<g id="edge7" class="edge" data-name="ELOToken-&gt;IERC20Metadata">
+
+<path fill="none" stroke="black" d="M127.41,-146.5C148.05,-136.46 175.84,-122.95 198.83,-111.78" style=""/>
+<polygon fill="black" stroke="black" points="200.19,-115.01 207.65,-107.49 197.13,-108.71 200.19,-115.01" style=""/>
+</g>
+<!-- ConvertLib -->
+<g id="node11" class="node" pointer-events="visible" data-name="ConvertLib">
+
+<ellipse fill="none" stroke="black" cx="980.57" cy="-162" rx="55.62" ry="18" style=""/>
+<text text-anchor="middle" x="980.57" y="-157.8" font-family="Times,serif" font-size="14.00" style="">ConvertLib</text>
+</g>
+</g>
+</svg>

@@ -28,9 +28,9 @@ const FunFactSection = () => {
         <Typography
           variant="h3"
           component="div"
-          sx={{ mb: 2, maxWidth: '800px', mx: 'auto', fontWeight: 500 }}
+          sx={{ mb: 2, inlineSize: '800px', mx: 'auto', fontWeight: 500 }}
         >
-          ...
+          Did you know that honey never spoils?
         </Typography>
         <Button component={Link} to="/mint" endIcon={<ArrowForwardIcon />}>
           Mint an NFT Now

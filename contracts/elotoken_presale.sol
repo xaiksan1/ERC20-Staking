@@ -6,15 +6,15 @@
 
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.6.12;
+pragma solidity ^0.8.0;
 
 abstract contract Context {
     function _msgSender() internal view virtual returns (address payable) {
-        return msg.sender;
+        return payable(msg.sender);
     }
 
     function _msgData() internal view virtual returns (bytes memory) {
-        this; // silence state mutability warning without generating bytecode - see https://github.com/ethereum/solidity/issues/2691
+        this; // silence state mutability warning without generating bytecode - see https://github.com/ethereum/solidity/issues/2692
         return msg.data;
     }
 }
@@ -27,7 +27,7 @@ abstract contract Ownable is Context {
     /**
      * @dev Initializes the contract setting the deployer as the initial owner.
      */
-    constructor () internal{
+    constructor () {
         address msgSender = _msgSender();
         _owner = msgSender;
         emit OwnershipTransferred(address(0), msgSender);
@@ -71,152 +71,11 @@ abstract contract Ownable is Context {
     }
 }
 
-library SafeMath {
-    /**
-     * @dev Returns the addition of two unsigned integers, reverting on
-     * overflow.
-     *
-     * Counterpart to Solidity's `+` operator.
-     *
-     * Requirements:
-     *
-     * - Addition cannot overflow.
-     */
-    function add(uint256 a, uint256 b) internal pure returns (uint256) {
-        uint256 c = a + b;
-        require(c >= a, "SafeMath: addition overflow");
-
-        return c;
-    }
-
-    /**
-     * @dev Returns the subtraction of two unsigned integers, reverting on
-     * overflow (when the result is negative).
-     *
-     * Counterpart to Solidity's `-` operator.
-     *
-     * Requirements:
-     *
-     * - Subtraction cannot overflow.
-     */
-    function sub(uint256 a, uint256 b) internal pure returns (uint256) {
-        return sub(a, b, "SafeMath: subtraction overflow");
-    }
-
-    /**
-     * @dev Returns the subtraction of two unsigned integers, reverting with custom message on
-     * overflow (when the result is negative).
-     *
-     * Counterpart to Solidity's `-` operator.
-     *
-     * Requirements:
-     *
-     * - Subtraction cannot overflow.
-     */
-    function sub(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
-        require(b <= a, errorMessage);
-        uint256 c = a - b;
-
-        return c;
-    }
-
-    /**
-     * @dev Returns the multiplication of two unsigned integers, reverting on
-     * overflow.
-     *
-     * Counterpart to Solidity's `*` operator.
-     *
-     * Requirements:
-     *
-     * - Multiplication cannot overflow.
-     */
-    function mul(uint256 a, uint256 b) internal pure returns (uint256) {
-        // Gas optimization: this is cheaper than requiring 'a' not being zero, but the
-        // benefit is lost if 'b' is also tested.
-        // See: https://github.com/OpenZeppelin/openzeppelin-contracts/pull/522
-        if (a == 0) {
-            return 0;
-        }
-
-        uint256 c = a * b;
-        require(c / a == b, "SafeMath: multiplication overflow");
-
-        return c;
-    }
-
-    /**
-     * @dev Returns the integer division of two unsigned integers. Reverts on
-     * division by zero. The result is rounded towards zero.
-     *
-     * Counterpart to Solidity's `/` operator. Note: this function uses a
-     * `revert` opcode (which leaves remaining gas untouched) while Solidity
-     * uses an invalid opcode to revert (consuming all remaining gas).
-     *
-     * Requirements:
-     *
-     * - The divisor cannot be zero.
-     */
-    function div(uint256 a, uint256 b) internal pure returns (uint256) {
-        return div(a, b, "SafeMath: division by zero.");
-    }
-
-    /**
-     * @dev Returns the integer division of two unsigned integers. Reverts with custom message on
-     * division by zero. The result is rounded towards zero.
-     *
-     * Counterpart to Solidity's `/` operator. Note: this function uses a
-     * `revert` opcode (which leaves remaining gas untouched) while Solidity
-     * uses an invalid opcode to revert (consuming all remaining gas).
-     *
-     * Requirements:
-     *
-     * - The divisor cannot be zero.
-     */
-    function div(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
-        require(b > 0, errorMessage);
-        uint256 c = a / b;
-        // assert(a == b * c + a % b); // There is no case in which this doesn't hold
-
-        return c;
-    }
-
-    /**
-     * @dev Returns the remainder of dividing two unsigned integers. (unsigned integer modulo),
-     * Reverts when dividing by zero.
-     *
-     * Counterpart to Solidity's `%` operator. This function uses a `revert`
-     * opcode (which leaves remaining gas untouched) while Solidity uses an
-     * invalid opcode to revert (consuming all remaining gas).
-     *
-     * Requirements:
-     *
-     * - The divisor cannot be zero.
-     */
-    function mod(uint256 a, uint256 b) internal pure returns (uint256) {
-        return mod(a, b, "SafeMath: modulo by zero");
-    }
-
-    /**
-     * @dev Returns the remainder of dividing two unsigned integers. (unsigned integer modulo),
-     * Reverts with custom message when dividing by zero.
-     *
-     * Counterpart to Solidity's `%` operator. This function uses a `revert`
-     * opcode (which leaves remaining gas untouched) while Solidity uses an
-     * invalid opcode to revert (consuming all remaining gas).
-     *
-     * Requirements:
-     *
-     * - The divisor cannot be zero.
-     */
-    function mod(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
-        require(b != 0, errorMessage);
-        return a % b;
-    }
-}
+// SafeMath library removed as Solidity 0.8.x includes built-in overflow checks.
 
 abstract contract ReentrancyGuard {
     // Booleans are more expensive than uint256 or any type that takes up a full
-    // word because each write operation emits an extra SLOAD to first read the
+    // word because each write operation emits an extra LOAD to first read the
     // slot's contents, replace the bits taken up by the boolean, and then write
     // back. This is the compiler's defense against contract upgrades and
     // pointer aliasing, and it cannot be disabled.
@@ -231,7 +90,7 @@ abstract contract ReentrancyGuard {
 
     uint256 private _status;
 
-    constructor () internal {
+    constructor () {
         _status = _NOT_ENTERED;
     }
 
@@ -457,7 +316,7 @@ library EnumerableSet {
      * already present.
      */
     function add(AddressSet storage set, address value) internal returns (bool) {
-        return _add(set._inner, bytes32(uint256(value)));
+        return _add(set._inner, bytes32(uint256(uint160(value))));
     }
 
     /**
@@ -467,14 +326,14 @@ library EnumerableSet {
      * present.
      */
     function remove(AddressSet storage set, address value) internal returns (bool) {
-        return _remove(set._inner, bytes32(uint256(value)));
+        return _remove(set._inner, bytes32(uint256(uint160(value))));
     }
 
     /**
      * @dev Returns true if the value is in the set. O(1).
      */
     function contains(AddressSet storage set, address value) internal view returns (bool) {
-        return _contains(set._inner, bytes32(uint256(value)));
+        return _contains(set._inner, bytes32(uint256(uint160(value))));
     }
 
     /**
@@ -495,7 +354,7 @@ library EnumerableSet {
     * - `index` must be strictly less than {length}.
     */
     function at(AddressSet storage set, uint256 index) internal view returns (address) {
-        return address(uint256(_at(set._inner, index)));
+        return address(uint160(uint256(_at(set._inner, index))));
     }
 
 
@@ -571,7 +430,7 @@ interface IERC20 {
 }
 
 contract ELOPresale is ReentrancyGuard {
-    using SafeMath for uint256;
+    // SafeMath is no longer needed in Solidity 0.8.x.
 
     struct PresaleInfo {
         address sale_token; // Sale token
@@ -624,7 +483,7 @@ contract ELOPresale is ReentrancyGuard {
         _;
     }
 
-    constructor() public{
+    constructor() {
         owner = msg.sender;
     }
 
@@ -684,7 +543,7 @@ contract ELOPresale is ReentrancyGuard {
         BuyerInfo storage buyer = buyers[msg.sender];
 
         uint256 amount_in = msg.value;
-        uint256 allowance = presale_info.raise_max.sub(buyer.base);
+        uint256 allowance = presale_info.raise_max - buyer.base;
         uint256 remaining = presale_info.hardcap - status.raised_amount;
 
         allowance = allowance > remaining ? remaining : allowance;
@@ -692,7 +551,7 @@ contract ELOPresale is ReentrancyGuard {
             amount_in = allowance;
         }
 
-        uint256 tokensSold = amount_in.mul(presale_info.token_rate);
+        uint256 tokensSold = amount_in * presale_info.token_rate;
 
         require(tokensSold > 0, "ZERO TOKENS");
         require(status.raised_amount * presale_info.token_rate <= IERC20(presale_info.sale_token).balanceOf(address(this)), "Token remain error");
@@ -700,14 +559,14 @@ contract ELOPresale is ReentrancyGuard {
         if (buyer.base == 0) {
             status.num_buyers++;
         }
-        buyers[msg.sender].base = buyers[msg.sender].base.add(amount_in);
-        buyers[msg.sender].sale = buyers[msg.sender].sale.add(tokensSold);
-        status.raised_amount = status.raised_amount.add(amount_in);
-        status.sold_amount = status.sold_amount.add(tokensSold);
+        buyers[msg.sender].base = buyers[msg.sender].base + amount_in;
+        buyers[msg.sender].sale = buyers[msg.sender].sale + tokensSold;
+        status.raised_amount = status.raised_amount + amount_in;
+        status.sold_amount = status.sold_amount + tokensSold;
         
         // return unused ETH
         if (amount_in < msg.value) {
-            msg.sender.transfer(msg.value.sub(amount_in));
+            payable(msg.sender).transfer(msg.value - amount_in);
         }
         
         emit UserDepsitedSuccess(msg.sender, msg.value);
@@ -719,13 +578,13 @@ contract ELOPresale is ReentrancyGuard {
         require(presaleStatus() == 2, "Not succeeded"); // Success
         
         BuyerInfo storage buyer = buyers[msg.sender];
-        uint256 remaintoken = status.sold_amount.sub(status.token_withdraw);
+        uint256 remaintoken = status.sold_amount - status.token_withdraw;
         require(remaintoken >= buyer.sale, "Nothing to withdraw.");
         require(buyers[msg.sender].sale != 0, "Nothing to withdraw");
 
         TransferHelper.safeTransfer(address(presale_info.sale_token), msg.sender, buyer.sale);
         
-        status.token_withdraw = status.token_withdraw.add(buyer.sale);
+        status.token_withdraw = status.token_withdraw + buyer.sale;
         buyers[msg.sender].sale = 0;
         buyers[msg.sender].base = 0;
         
@@ -744,7 +603,7 @@ contract ELOPresale is ReentrancyGuard {
         
         require(remainingBaseBalance >= buyer.base, "Nothing to withdraw.");
 
-        status.base_withdraw = status.base_withdraw.add(buyer.base);
+        status.base_withdraw = status.base_withdraw + buyer.base;
         
         address payable reciver = payable(msg.sender);
         reciver.transfer(buyer.base);

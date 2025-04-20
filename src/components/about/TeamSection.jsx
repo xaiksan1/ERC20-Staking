@@ -62,9 +62,9 @@ const members = [
 
 const TeamSection = () => {
   return (
-    <Box sx={{ py: 7, borderTop: 1, borderColor: 'grey.100' }}>
+    <Box sx={{ py: 7, borderBlockStart: 1, borderColor: 'grey.100' }}>
       <Container>
-        <Box sx={{ maxWidth: '500px' }}>
+        <Box sx={{ inlineSize: '500px' }}>
           <Typography variant="h5" color="primary.main" sx={{ mb: 1, fontWeight: 700 }}>
             Have you met the ELO Founders Team?
           </Typography>
@@ -90,8 +90,8 @@ const TeamSection = () => {
                     target="_blank"
                     sx={{
                       bgcolor: '#fff',
-                      width: 30,
-                      height: 30,
+                      inlineSize: 30,
+                      blockSize: 30,
                       border: '2px solid #fff',
                     }}
                   >
@@ -99,7 +99,7 @@ const TeamSection = () => {
                   </Avatar>
                 }
               >
-                <Avatar sx={{ width: 70, height: 70 }} src={member.avatar} />
+                <Avatar sx={{ inlineSize: 70, blockSize: 70 }} src={member.avatar} />
               </Badge>
               <Box sx={{ mt: 1 }}>
                 <Typography

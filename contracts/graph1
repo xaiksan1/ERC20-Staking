@@ -1,0 +1,992 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="980pt" height="3041pt" viewBox="0.00 0.00 979.57 3041.00">
+<g id="graph0" class="graph" transform="translate(4,3037) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-3037 975.57,-3037 975.57,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterContext">
+
+<path fill="#445773" stroke="#445773" d="M566.25,-8C566.25,-8 894.73,-8 894.73,-8 900.73,-8 906.73,-14 906.73,-20 906.73,-20 906.73,-127 906.73,-127 906.73,-133 900.73,-139 894.73,-139 894.73,-139 566.25,-139 566.25,-139 560.25,-139 554.25,-133 554.25,-127 554.25,-127 554.25,-20 554.25,-20 554.25,-14 560.25,-8 566.25,-8" style=""/>
+<text text-anchor="middle" x="730.49" y="-122.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Context</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterOwnable">
+
+<path fill="#445773" stroke="#445773" d="M44.14,-31C44.14,-31 213.74,-31 213.74,-31 219.74,-31 225.74,-37 225.74,-43 225.74,-43 225.74,-482 225.74,-482 225.74,-488 219.74,-494 213.74,-494 213.74,-494 44.14,-494 44.14,-494 38.14,-494 32.14,-488 32.14,-482 32.14,-482 32.14,-43 32.14,-43 32.14,-37 38.14,-31 44.14,-31" style=""/>
+<text text-anchor="middle" x="128.94" y="-477.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Ownable</text>
+</g>
+<g id="clust3" class="cluster" data-name="clusterReentrancyGuard">
+
+<path fill="#445773" stroke="#445773" d="M60.68,-729C60.68,-729 197.2,-729 197.2,-729 203.2,-729 209.2,-735 209.2,-741 209.2,-741 209.2,-856 209.2,-856 209.2,-862 203.2,-868 197.2,-868 197.2,-868 60.68,-868 60.68,-868 54.68,-868 48.68,-862 48.68,-856 48.68,-856 48.68,-741 48.68,-741 48.68,-735 54.68,-729 60.68,-729" style=""/>
+<text text-anchor="middle" x="128.94" y="-851.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ReentrancyGuard</text>
+</g>
+<g id="clust4" class="cluster" data-name="clusterTransferHelper">
+
+<path fill="#445773" stroke="#445773" d="M522.3,-857C522.3,-857 719.76,-857 719.76,-857 725.76,-857 731.76,-863 731.76,-869 731.76,-869 731.76,-1084 731.76,-1084 731.76,-1090 725.76,-1096 719.76,-1096 719.76,-1096 522.3,-1096 522.3,-1096 516.3,-1096 510.3,-1090 510.3,-1084 510.3,-1084 510.3,-869 510.3,-869 510.3,-863 516.3,-857 522.3,-857" style=""/>
+<text text-anchor="middle" x="621.03" y="-1079.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">TransferHelper  (lib)</text>
+</g>
+<g id="clust5" class="cluster" data-name="clusterEnumerableSet">
+
+<path fill="#445773" stroke="#445773" d="M92.95,-1445C92.95,-1445 665.08,-1445 665.08,-1445 671.08,-1445 677.08,-1451 677.08,-1457 677.08,-1457 677.08,-1726 677.08,-1726 677.08,-1732 671.08,-1738 665.08,-1738 665.08,-1738 92.95,-1738 92.95,-1738 86.95,-1738 80.95,-1732 80.95,-1726 80.95,-1726 80.95,-1457 80.95,-1457 80.95,-1451 86.95,-1445 92.95,-1445" style=""/>
+<text text-anchor="middle" x="379.01" y="-1721.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">EnumerableSet  (lib)</text>
+</g>
+<g id="clust6" class="cluster" data-name="clusterIERC20">
+
+<path fill="#445773" stroke="#445773" d="M71.49,-1746C71.49,-1746 186.39,-1746 186.39,-1746 192.39,-1746 198.39,-1752 198.39,-1758 198.39,-1758 198.39,-2243 198.39,-2243 198.39,-2249 192.39,-2255 186.39,-2255 186.39,-2255 71.49,-2255 71.49,-2255 65.49,-2255 59.49,-2249 59.49,-2243 59.49,-2243 59.49,-1758 59.49,-1758 59.49,-1752 65.49,-1746 71.49,-1746" style=""/>
+<text text-anchor="middle" x="128.94" y="-2238.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IERC20  (iface)</text>
+</g>
+<g id="clust7" class="cluster" data-name="clusterELOPresale">
+
+<path fill="#445773" stroke="#445773" d="M20,-1104C20,-1104 679.02,-1104 679.02,-1104 685.02,-1104 691.02,-1110 691.02,-1116 691.02,-1116 691.02,-1425 691.02,-1425 691.02,-1431 685.02,-1437 679.02,-1437 679.02,-1437 20,-1437 20,-1437 14,-1437 8,-1431 8,-1425 8,-1425 8,-1116 8,-1116 8,-1110 14,-1104 20,-1104" style=""/>
+<text text-anchor="middle" x="349.51" y="-1420.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ELOPresale</text>
+</g>
+<g id="clust8" class="cluster" data-name="clusterIERC20Metadata">
+
+<path fill="#445773" stroke="#445773" d="M62.58,-2263C62.58,-2263 195.3,-2263 195.3,-2263 201.3,-2263 207.3,-2269 207.3,-2275 207.3,-2275 207.3,-2436 207.3,-2436 207.3,-2442 201.3,-2448 195.3,-2448 195.3,-2448 62.58,-2448 62.58,-2448 56.58,-2448 50.58,-2442 50.58,-2436 50.58,-2436 50.58,-2275 50.58,-2275 50.58,-2269 56.58,-2263 62.58,-2263" style=""/>
+<text text-anchor="middle" x="128.94" y="-2431.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IERC20Metadata  (iface)</text>
+</g>
+<g id="clust9" class="cluster" data-name="clusterSafeMath">
+
+<path fill="#445773" stroke="#445773" d="M90.73,-2456C90.73,-2456 168.14,-2456 168.14,-2456 174.14,-2456 180.14,-2462 180.14,-2468 180.14,-2468 180.14,-2791 180.14,-2791 180.14,-2797 174.14,-2803 168.14,-2803 168.14,-2803 90.73,-2803 90.73,-2803 84.73,-2803 78.73,-2797 78.73,-2791 78.73,-2791 78.73,-2468 78.73,-2468 78.73,-2462 84.73,-2456 90.73,-2456" style=""/>
+<text text-anchor="middle" x="129.44" y="-2786.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">SafeMath  (lib)</text>
+</g>
+<g id="clust10" class="cluster" data-name="clusterELOToken">
+
+<path fill="#445773" stroke="#445773" d="M297.99,-147C297.99,-147 951.57,-147 951.57,-147 957.57,-147 963.57,-153 963.57,-159 963.57,-159 963.57,-752 963.57,-752 963.57,-758 957.57,-764 951.57,-764 951.57,-764 297.99,-764 297.99,-764 291.99,-764 285.99,-758 285.99,-752 285.99,-752 285.99,-159 285.99,-159 285.99,-153 291.99,-147 297.99,-147" style=""/>
+<text text-anchor="middle" x="624.78" y="-747.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ELOToken</text>
+</g>
+<g id="clust11" class="cluster" data-name="clusterConvertLib">
+
+<path fill="#445773" stroke="#445773" d="M85.95,-2811C85.95,-2811 172.93,-2811 172.93,-2811 178.93,-2811 184.93,-2817 184.93,-2823 184.93,-2823 184.93,-2876 184.93,-2876 184.93,-2882 178.93,-2888 172.93,-2888 172.93,-2888 85.95,-2888 85.95,-2888 79.95,-2888 73.95,-2882 73.95,-2876 73.95,-2876 73.95,-2823 73.95,-2823 73.95,-2817 79.95,-2811 85.95,-2811" style=""/>
+<text text-anchor="middle" x="129.44" y="-2871.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ConvertLib  (lib)</text>
+</g>
+<g id="clust12" class="cluster" data-name="clustertoken">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M834.66,-953C834.66,-953 880.66,-953 880.66,-953 886.66,-953 892.66,-959 892.66,-965 892.66,-965 892.66,-1018 892.66,-1018 892.66,-1024 886.66,-1030 880.66,-1030 880.66,-1030 834.66,-1030 834.66,-1030 828.66,-1030 822.66,-1024 822.66,-1018 822.66,-1018 822.66,-965 822.66,-965 822.66,-959 828.66,-953 834.66,-953" style=""/>
+<text text-anchor="middle" x="857.66" y="-1013.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">token</text>
+</g>
+<g id="clust13" class="cluster" data-name="clusterto">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M821.14,-857C821.14,-857 894.19,-857 894.19,-857 900.19,-857 906.19,-863 906.19,-869 906.19,-869 906.19,-922 906.19,-922 906.19,-928 900.19,-934 894.19,-934 894.19,-934 821.14,-934 821.14,-934 815.14,-934 809.14,-928 809.14,-922 809.14,-922 809.14,-869 809.14,-869 809.14,-863 815.14,-857 821.14,-857" style=""/>
+<text text-anchor="middle" x="857.66" y="-917.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">to</text>
+</g>
+<g id="clust14" class="cluster" data-name="clusterreciver">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M584.51,-772C584.51,-772 657.56,-772 657.56,-772 663.56,-772 669.56,-778 669.56,-784 669.56,-784 669.56,-837 669.56,-837 669.56,-843 663.56,-849 657.56,-849 657.56,-849 584.51,-849 584.51,-849 578.51,-849 572.51,-843 572.51,-837 572.51,-837 572.51,-784 572.51,-784 572.51,-778 578.51,-772 584.51,-772" style=""/>
+<text text-anchor="middle" x="621.03" y="-832.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">reciver</text>
+</g>
+<g id="clust15" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="55.94,-2896 55.94,-3025 415.09,-3025 415.09,-2896 55.94,-2896" style=""/>
+<text text-anchor="middle" x="235.51" y="-3008.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- Context._msgSender -->
+<g id="node1" class="node" pointer-events="visible" data-name="Context._msgSender">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="621.03" cy="-88" rx="58.56" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-83.8" font-family="Times,serif" font-size="14.00" style="">_msgSender</text>
+</g>
+<!-- Context.payable -->
+<g id="node3" class="node" pointer-events="visible" data-name="Context.payable">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="857.66" cy="-88" rx="41.13" ry="18" style=""/>
+<text text-anchor="middle" x="857.66" y="-83.8" font-family="Times,serif" font-size="14.00" style="">payable</text>
+</g>
+<!-- Context._msgSender&#45;&gt;Context.payable -->
+<g id="edge1" class="edge" data-name="Context._msgSender-&gt;Context.payable">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M680.94,-88C718.17,-88 765.95,-88 802.29,-88" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="802.09,-91.5 812.09,-88 802.09,-84.5 802.09,-91.5" style=""/>
+</g>
+<!-- Context._msgData -->
+<g id="node2" class="node" pointer-events="visible" data-name="Context._msgData">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="621.03" cy="-34" rx="50.39" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-29.8" font-family="Times,serif" font-size="14.00" style="">_msgData</text>
+</g>
+<!-- Ownable.&lt;Constructor&gt; -->
+<g id="node4" class="node" pointer-events="visible" data-name="Ownable.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="128.94" cy="-443" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-438.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- Ownable.&lt;Constructor&gt;&#45;&gt;Context._msgSender -->
+<g id="edge2" class="edge" data-name="Ownable.&lt;Constructor&gt;-&gt;Context._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M173.07,-428.02C196.78,-423.77 224.76,-417.02 241.88,-398 323.73,-307.02 192.57,-212.75 277.88,-125 315.51,-86.29 468.56,-74.82 556.68,-77.63" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="556.3,-81.12 566.43,-78.04 556.59,-74.12 556.3,-81.12" style=""/>
+</g>
+<!-- Ownable.&lt;Constructor&gt;&#45;&gt;Context._msgSender -->
+<g id="edge43" class="edge" data-name="Ownable.&lt;Constructor&gt;-&gt;Context._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M196.96,-440.07C213.78,-436.11 230.31,-428.86 241.88,-416 323.73,-325.02 192.57,-230.75 277.88,-143 314.36,-105.47 459.33,-93.55 548.44,-89.76" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="548.56,-93.26 558.41,-89.37 548.28,-86.27 548.56,-93.26" style=""/>
+</g>
+<!-- Ownable.&lt;Constructor&gt;&#45;&gt;Context._msgSender -->
+<g id="edge46" class="edge" data-name="Ownable.&lt;Constructor&gt;-&gt;Context._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M166.8,-459.28C191.66,-460.89 223.23,-454.73 241.88,-434 323.73,-343.02 192.57,-248.75 277.88,-161 315.92,-121.86 471.91,-110.58 559.54,-100.91" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="559.93,-104.39 569.47,-99.78 559.13,-97.44 559.93,-104.39" style=""/>
+</g>
+<!-- ELOToken.transfer -->
+<g id="node62" class="node" pointer-events="visible" data-name="ELOToken.transfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="380.09" cy="-443" rx="40.55" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-438.8" font-family="Times,serif" font-size="14.00" style="">transfer</text>
+</g>
+<!-- Ownable.&lt;Constructor&gt;&#45;&gt;ELOToken.transfer -->
+<g id="edge47" class="edge" data-name="Ownable.&lt;Constructor&gt;-&gt;ELOToken.transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M142.29,-424.11C181.66,-397.38 304.58,-395.45 356.06,-418.3" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="354.14,-421.24 364.59,-423 357.52,-415.11 354.14,-421.24" style=""/>
+</g>
+<!-- Ownable.&lt;Constructor&gt;&#45;&gt;ELOToken.transfer -->
+<g id="edge48" class="edge" data-name="Ownable.&lt;Constructor&gt;-&gt;ELOToken.transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M157.55,-425.27C203.26,-413.48 294.54,-412.94 344.48,-423.63" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="343.33,-426.95 353.89,-426.02 345.06,-420.16 343.33,-426.95" style=""/>
+</g>
+<!-- Ownable.&lt;Constructor&gt;&#45;&gt;ELOToken.transfer -->
+<g id="edge49" class="edge" data-name="Ownable.&lt;Constructor&gt;-&gt;ELOToken.transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M184.62,-431.6C228.3,-428.65 288.95,-428.81 330.85,-432.07" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="330.46,-435.55 340.74,-432.96 331.09,-428.58 330.46,-435.55" style=""/>
+</g>
+<!-- Ownable.&lt;Constructor&gt;&#45;&gt;ELOToken.transfer -->
+<g id="edge50" class="edge" data-name="Ownable.&lt;Constructor&gt;-&gt;ELOToken.transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M197.69,-443C237.91,-443 288.18,-443 325.6,-443" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="325.23,-446.5 335.23,-443 325.23,-439.5 325.23,-446.5" style=""/>
+</g>
+<!-- Ownable.&lt;Constructor&gt;&#45;&gt;ELOToken.transfer -->
+<g id="edge51" class="edge" data-name="Ownable.&lt;Constructor&gt;-&gt;ELOToken.transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M184.62,-454.4C228.3,-457.35 288.95,-457.19 330.85,-453.93" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="331.09,-457.42 340.74,-453.04 330.46,-450.45 331.09,-457.42" style=""/>
+</g>
+<!-- Ownable.&lt;Constructor&gt;&#45;&gt;ELOToken.transfer -->
+<g id="edge52" class="edge" data-name="Ownable.&lt;Constructor&gt;-&gt;ELOToken.transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M157.55,-460.73C203.26,-472.52 294.54,-473.06 344.48,-462.37" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="345.06,-465.84 353.89,-459.98 343.33,-459.05 345.06,-465.84" style=""/>
+</g>
+<!-- Ownable.&lt;Constructor&gt;&#45;&gt;ELOToken.transfer -->
+<g id="edge53" class="edge" data-name="Ownable.&lt;Constructor&gt;-&gt;ELOToken.transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M142.29,-461.89C181.66,-488.62 304.58,-490.55 356.06,-467.7" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="357.52,-470.89 364.59,-463 354.14,-464.76 357.52,-470.89" style=""/>
+</g>
+<!-- ELOToken._mint -->
+<g id="node69" class="node" pointer-events="visible" data-name="ELOToken._mint">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="621.03" cy="-605" rx="33.64" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-600.8" font-family="Times,serif" font-size="14.00" style="">_mint</text>
+</g>
+<!-- Ownable.&lt;Constructor&gt;&#45;&gt;ELOToken._mint -->
+<g id="edge45" class="edge" data-name="Ownable.&lt;Constructor&gt;-&gt;ELOToken._mint">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M132.59,-462.15C141.36,-517.26 175.02,-676.32 277.88,-740 355.13,-787.82 398.19,-774.35 482.3,-740 534.94,-718.51 578.34,-666.13 601.61,-633.3" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="604.2,-635.7 606.99,-625.48 598.44,-631.73 604.2,-635.7" style=""/>
+</g>
+<!-- Ownable.owner -->
+<g id="node5" class="node" pointer-events="visible" data-name="Ownable.owner">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="128.94" cy="-389" rx="35.34" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-384.8" font-family="Times,serif" font-size="14.00" style="">owner</text>
+</g>
+<!-- Ownable.onlyOwner -->
+<g id="node6" class="node" pointer-events="visible" data-name="Ownable.onlyOwner">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="187.89,-323.54 187.89,-338.46 153.36,-349 104.52,-349 69.99,-338.46 69.99,-323.54 104.52,-313 153.36,-313 187.89,-323.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="191.88,-320.58 191.88,-341.42 153.95,-353 103.93,-353 65.99,-341.42 65.99,-320.58 103.93,-309 153.95,-309 191.88,-320.58" style=""/>
+<text text-anchor="middle" x="128.94" y="-326.8" font-family="Times,serif" font-size="14.00" style="">onlyOwner</text>
+</g>
+<!-- Ownable.onlyOwner&#45;&gt;Context._msgSender -->
+<g id="edge3" class="edge" data-name="Ownable.onlyOwner-&gt;Context._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M189.87,-318.55C209,-313.8 228.63,-305.8 241.88,-291 308.85,-216.21 201.44,-133.09 277.88,-68 319.63,-32.45 478.96,-53.86 564.68,-71.96" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="563.8,-75.35 574.31,-74.07 565.29,-68.52 563.8,-75.35" style=""/>
+</g>
+<!-- Ownable.onlyOwner&#45;&gt;Context._msgSender -->
+<g id="edge44" class="edge" data-name="Ownable.onlyOwner-&gt;Context._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M193.37,-334.8C211.37,-330.8 229.43,-322.9 241.88,-309 308.85,-234.21 201.44,-151.09 277.88,-86 317.41,-52.34 462.36,-69.75 550.41,-81.34" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="549.86,-84.79 560.24,-82.64 550.78,-77.85 549.86,-84.79" style=""/>
+</g>
+<!-- Ownable.renounceOwnership -->
+<g id="node7" class="node" pointer-events="visible" data-name="Ownable.renounceOwnership">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="128.94" cy="-273" rx="88.6" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-268.8" font-family="Times,serif" font-size="14.00" style="">renounceOwnership</text>
+</g>
+<!-- Ownable.transferOwnership -->
+<g id="node8" class="node" pointer-events="visible" data-name="Ownable.transferOwnership">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="128.94" cy="-219" rx="82.81" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-214.8" font-family="Times,serif" font-size="14.00" style="">transferOwnership</text>
+</g>
+<!-- Ownable.geUnlockTime -->
+<g id="node9" class="node" pointer-events="visible" data-name="Ownable.geUnlockTime">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="128.94" cy="-165" rx="68.92" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-160.8" font-family="Times,serif" font-size="14.00" style="">geUnlockTime</text>
+</g>
+<!-- Ownable.lock -->
+<g id="node10" class="node" pointer-events="visible" data-name="Ownable.lock">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="128.94" cy="-111" rx="27.83" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-106.8" font-family="Times,serif" font-size="14.00" style="">lock</text>
+</g>
+<!-- Ownable.unlock -->
+<g id="node11" class="node" pointer-events="visible" data-name="Ownable.unlock">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="128.94" cy="-57" rx="37.14" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-52.8" font-family="Times,serif" font-size="14.00" style="">unlock</text>
+</g>
+<!-- ReentrancyGuard.&lt;Constructor&gt; -->
+<g id="node12" class="node" pointer-events="visible" data-name="ReentrancyGuard.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="128.94" cy="-817" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-812.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- ReentrancyGuard.nonReentrant -->
+<g id="node13" class="node" pointer-events="visible" data-name="ReentrancyGuard.nonReentrant">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="196.97,-751.54 196.97,-766.46 157.12,-777 100.76,-777 60.91,-766.46 60.91,-751.54 100.76,-741 157.12,-741 196.97,-751.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="200.95,-748.46 200.95,-769.54 157.63,-781 100.24,-781 56.93,-769.54 56.93,-748.46 100.24,-737 157.63,-737 200.95,-748.46" style=""/>
+<text text-anchor="middle" x="128.94" y="-754.8" font-family="Times,serif" font-size="14.00" style="">nonReentrant</text>
+</g>
+<!-- TransferHelper.safeApprove -->
+<g id="node14" class="node" pointer-events="visible" data-name="TransferHelper.safeApprove">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="621.03" cy="-991" rx="60.25" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-986.8" font-family="Times,serif" font-size="14.00" style="">safeApprove</text>
+</g>
+<!-- token.call -->
+<g id="node74" class="node" pointer-events="visible" data-name="token.call">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="857.66" cy="-979" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="857.66" y="-974.8" font-family="Times,serif" font-size="14.00" style="">call</text>
+</g>
+<!-- TransferHelper.safeApprove&#45;&gt;token.call -->
+<g id="edge4" class="edge" data-name="TransferHelper.safeApprove-&gt;token.call">
+
+<path fill="none" stroke="white" stroke-width="2" d="M681.85,-987.94C724.17,-985.78 779.76,-982.93 816.77,-981.04" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="816.68,-984.55 826.48,-980.54 816.32,-977.56 816.68,-984.55" style=""/>
+</g>
+<!-- TransferHelper.safeTransfer -->
+<g id="node15" class="node" pointer-events="visible" data-name="TransferHelper.safeTransfer">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="621.03" cy="-937" rx="59.08" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-932.8" font-family="Times,serif" font-size="14.00" style="">safeTransfer</text>
+</g>
+<!-- TransferHelper.safeTransfer&#45;&gt;token.call -->
+<g id="edge5" class="edge" data-name="TransferHelper.safeTransfer-&gt;token.call">
+
+<path fill="none" stroke="white" stroke-width="2" d="M674.1,-946.32C717.43,-954.08 778.17,-964.95 817.47,-971.98" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="816.73,-975.41 827.19,-973.72 817.96,-968.52 816.73,-975.41" style=""/>
+</g>
+<!-- TransferHelper.safeTransferFrom -->
+<g id="node16" class="node" pointer-events="visible" data-name="TransferHelper.safeTransferFrom">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="621.03" cy="-1045" rx="80.43" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-1040.8" font-family="Times,serif" font-size="14.00" style="">safeTransferFrom</text>
+</g>
+<!-- TransferHelper.safeTransferFrom&#45;&gt;token.call -->
+<g id="edge6" class="edge" data-name="TransferHelper.safeTransferFrom-&gt;token.call">
+
+<path fill="none" stroke="white" stroke-width="2" d="M679.72,-1031.51C696.56,-1027.38 714.94,-1022.69 731.76,-1018 761.58,-1009.69 795.03,-999.17 819.81,-991.16" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="820.61,-994.58 829.04,-988.16 818.44,-987.92 820.61,-994.58" style=""/>
+</g>
+<!-- TransferHelper.safeTransferBaseToken -->
+<g id="node17" class="node" pointer-events="visible" data-name="TransferHelper.safeTransferBaseToken">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="621.03" cy="-883" rx="102.96" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-878.8" font-family="Times,serif" font-size="14.00" style="">safeTransferBaseToken</text>
+</g>
+<!-- TransferHelper.safeTransferBaseToken&#45;&gt;token.call -->
+<g id="edge8" class="edge" data-name="TransferHelper.safeTransferBaseToken-&gt;token.call">
+
+<path fill="none" stroke="white" stroke-width="2" d="M698.47,-896.08C710.03,-899.67 721.51,-904.22 731.76,-910 747.09,-918.64 745.17,-928.17 759.76,-938 778.19,-950.42 800.99,-960.29 819.84,-967.23" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="818.41,-970.44 829,-970.46 820.74,-963.84 818.41,-970.44" style=""/>
+</g>
+<!-- to.transfer -->
+<g id="node75" class="node" pointer-events="visible" data-name="to.transfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="857.66" cy="-883" rx="40.55" ry="18" style=""/>
+<text text-anchor="middle" x="857.66" y="-878.8" font-family="Times,serif" font-size="14.00" style="">transfer</text>
+</g>
+<!-- TransferHelper.safeTransferBaseToken&#45;&gt;to.transfer -->
+<g id="edge7" class="edge" data-name="TransferHelper.safeTransferBaseToken-&gt;to.transfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M725.29,-883C752.01,-883 779.72,-883 802.76,-883" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="802.72,-886.5 812.72,-883 802.72,-879.5 802.72,-886.5" style=""/>
+</g>
+<!-- EnumerableSet._add -->
+<g id="node18" class="node" pointer-events="visible" data-name="EnumerableSet._add">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="380.09" cy="-1687" rx="29.62" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-1682.8" font-family="Times,serif" font-size="14.00" style="">_add</text>
+</g>
+<!-- EnumerableSet._contains -->
+<g id="node20" class="node" pointer-events="visible" data-name="EnumerableSet._contains">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="621.03" cy="-1579" rx="48.09" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-1574.8" font-family="Times,serif" font-size="14.00" style="">_contains</text>
+</g>
+<!-- EnumerableSet._add&#45;&gt;EnumerableSet._contains -->
+<g id="edge9" class="edge" data-name="EnumerableSet._add-&gt;EnumerableSet._contains">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M409.69,-1681.54C430.34,-1677.08 458.65,-1669.89 482.3,-1660 519.25,-1644.55 558.33,-1620.76 585.38,-1602.96" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="587.31,-1605.88 593.68,-1597.41 583.42,-1600.06 587.31,-1605.88" style=""/>
+</g>
+<!-- EnumerableSet._remove -->
+<g id="node19" class="node" pointer-events="visible" data-name="EnumerableSet._remove">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="380.09" cy="-1633" rx="44.64" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-1628.8" font-family="Times,serif" font-size="14.00" style="">_remove</text>
+</g>
+<!-- EnumerableSet._length -->
+<g id="node21" class="node" pointer-events="visible" data-name="EnumerableSet._length">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="380.09" cy="-1525" rx="40.01" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-1520.8" font-family="Times,serif" font-size="14.00" style="">_length</text>
+</g>
+<!-- EnumerableSet._at -->
+<g id="node22" class="node" pointer-events="visible" data-name="EnumerableSet._at">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="380.09" cy="-1471" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-1466.8" font-family="Times,serif" font-size="14.00" style="">_at</text>
+</g>
+<!-- EnumerableSet.add -->
+<g id="node23" class="node" pointer-events="visible" data-name="EnumerableSet.add">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="128.94" cy="-1687" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-1682.8" font-family="Times,serif" font-size="14.00" style="">add</text>
+</g>
+<!-- EnumerableSet.add&#45;&gt;EnumerableSet._add -->
+<g id="edge10" class="edge" data-name="EnumerableSet.add-&gt;EnumerableSet._add">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M154.28,-1678.58C197.42,-1672.45 287.65,-1671.87 339.72,-1676.83" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="339.06,-1680.28 349.39,-1677.92 339.84,-1673.32 339.06,-1680.28" style=""/>
+</g>
+<!-- EnumerableSet.add&#45;&gt;EnumerableSet._add -->
+<g id="edge15" class="edge" data-name="EnumerableSet.add-&gt;EnumerableSet._add">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M157.08,-1687C200.26,-1687 284.98,-1687 336.36,-1687" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="336.26,-1690.5 346.26,-1687 336.26,-1683.5 336.26,-1690.5" style=""/>
+</g>
+<!-- EnumerableSet.add&#45;&gt;EnumerableSet._add -->
+<g id="edge20" class="edge" data-name="EnumerableSet.add-&gt;EnumerableSet._add">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M154.28,-1695.42C197.42,-1701.55 287.65,-1702.13 339.72,-1697.17" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="339.84,-1700.68 349.39,-1696.08 339.06,-1693.72 339.84,-1700.68" style=""/>
+</g>
+<!-- EnumerableSet.remove -->
+<g id="node24" class="node" pointer-events="visible" data-name="EnumerableSet.remove">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="128.94" cy="-1633" rx="39.99" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-1628.8" font-family="Times,serif" font-size="14.00" style="">remove</text>
+</g>
+<!-- EnumerableSet.remove&#45;&gt;EnumerableSet._remove -->
+<g id="edge11" class="edge" data-name="EnumerableSet.remove-&gt;EnumerableSet._remove">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M164.84,-1623.28C207.29,-1618.77 279.28,-1618.3 327.98,-1621.85" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="327.47,-1625.32 337.73,-1622.68 328.06,-1618.35 327.47,-1625.32" style=""/>
+</g>
+<!-- EnumerableSet.remove&#45;&gt;EnumerableSet._remove -->
+<g id="edge16" class="edge" data-name="EnumerableSet.remove-&gt;EnumerableSet._remove">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M170.25,-1633C211.2,-1633 275.02,-1633 321.34,-1633" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="321.18,-1636.5 331.18,-1633 321.18,-1629.5 321.18,-1636.5" style=""/>
+</g>
+<!-- EnumerableSet.remove&#45;&gt;EnumerableSet._remove -->
+<g id="edge21" class="edge" data-name="EnumerableSet.remove-&gt;EnumerableSet._remove">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M164.84,-1642.72C207.29,-1647.23 279.28,-1647.7 327.98,-1644.15" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="328.06,-1647.65 337.73,-1643.32 327.47,-1640.68 328.06,-1647.65" style=""/>
+</g>
+<!-- EnumerableSet.contains -->
+<g id="node25" class="node" pointer-events="visible" data-name="EnumerableSet.contains">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="380.09" cy="-1579" rx="43.44" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-1574.8" font-family="Times,serif" font-size="14.00" style="">contains</text>
+</g>
+<!-- EnumerableSet.contains&#45;&gt;EnumerableSet._contains -->
+<g id="edge12" class="edge" data-name="EnumerableSet.contains-&gt;EnumerableSet._contains">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M418.42,-1568.88C458.21,-1564.88 521.53,-1564.43 566.59,-1567.53" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="566.1,-1571 576.35,-1568.31 566.66,-1564.03 566.1,-1571" style=""/>
+</g>
+<!-- EnumerableSet.contains&#45;&gt;EnumerableSet._contains -->
+<g id="edge17" class="edge" data-name="EnumerableSet.contains-&gt;EnumerableSet._contains">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M424.92,-1579C462.44,-1579 516.88,-1579 558.72,-1579" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="558.53,-1582.5 568.53,-1579 558.53,-1575.5 558.53,-1582.5" style=""/>
+</g>
+<!-- EnumerableSet.contains&#45;&gt;EnumerableSet._contains -->
+<g id="edge22" class="edge" data-name="EnumerableSet.contains-&gt;EnumerableSet._contains">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M418.42,-1589.12C458.21,-1593.12 521.53,-1593.57 566.59,-1590.47" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="566.66,-1593.97 576.35,-1589.69 566.1,-1587 566.66,-1593.97" style=""/>
+</g>
+<!-- EnumerableSet.length -->
+<g id="node26" class="node" pointer-events="visible" data-name="EnumerableSet.length">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="128.94" cy="-1525" rx="35.35" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-1520.8" font-family="Times,serif" font-size="14.00" style="">length</text>
+</g>
+<!-- EnumerableSet.length&#45;&gt;EnumerableSet._length -->
+<g id="edge13" class="edge" data-name="EnumerableSet.length-&gt;EnumerableSet._length">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M161.24,-1515.68C204.19,-1510.68 281.76,-1510.16 331.81,-1514.14" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="331.23,-1517.6 341.5,-1515.04 331.87,-1510.63 331.23,-1517.6" style=""/>
+</g>
+<!-- EnumerableSet.length&#45;&gt;EnumerableSet._length -->
+<g id="edge18" class="edge" data-name="EnumerableSet.length-&gt;EnumerableSet._length">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M165.64,-1525C207.58,-1525 277.56,-1525 325.9,-1525" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="325.89,-1528.5 335.89,-1525 325.89,-1521.5 325.89,-1528.5" style=""/>
+</g>
+<!-- EnumerableSet.length&#45;&gt;EnumerableSet._length -->
+<g id="edge23" class="edge" data-name="EnumerableSet.length-&gt;EnumerableSet._length">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M161.24,-1534.32C204.19,-1539.32 281.76,-1539.84 331.81,-1535.86" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="331.87,-1539.37 341.5,-1534.96 331.23,-1532.4 331.87,-1539.37" style=""/>
+</g>
+<!-- EnumerableSet.at -->
+<g id="node27" class="node" pointer-events="visible" data-name="EnumerableSet.at">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="128.94" cy="-1471" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-1466.8" font-family="Times,serif" font-size="14.00" style="">at</text>
+</g>
+<!-- EnumerableSet.at&#45;&gt;EnumerableSet._at -->
+<g id="edge14" class="edge" data-name="EnumerableSet.at-&gt;EnumerableSet._at">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M154.28,-1462.58C198.01,-1456.37 290.09,-1455.85 341.81,-1461.04" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="341.3,-1464.5 351.64,-1462.21 342.12,-1457.55 341.3,-1464.5" style=""/>
+</g>
+<!-- EnumerableSet.at&#45;&gt;EnumerableSet._at -->
+<g id="edge19" class="edge" data-name="EnumerableSet.at-&gt;EnumerableSet._at">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M157.08,-1471C200.96,-1471 287.71,-1471 338.82,-1471" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="338.58,-1474.5 348.58,-1471 338.58,-1467.5 338.58,-1474.5" style=""/>
+</g>
+<!-- EnumerableSet.at&#45;&gt;EnumerableSet._at -->
+<g id="edge24" class="edge" data-name="EnumerableSet.at-&gt;EnumerableSet._at">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M154.28,-1479.42C198.01,-1485.63 290.09,-1486.15 341.81,-1480.96" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="342.12,-1484.45 351.64,-1479.79 341.3,-1477.5 342.12,-1484.45" style=""/>
+</g>
+<!-- IERC20.decimals -->
+<g id="node28" class="node" pointer-events="visible" data-name="IERC20.decimals">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="128.94" cy="-2204" rx="45.22" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-2199.8" font-family="Times,serif" font-size="14.00" style="">decimals</text>
+</g>
+<!-- IERC20.name -->
+<g id="node29" class="node" pointer-events="visible" data-name="IERC20.name">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="128.94" cy="-2150" rx="31.9" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-2145.8" font-family="Times,serif" font-size="14.00" style="">name</text>
+</g>
+<!-- IERC20.symbol -->
+<g id="node30" class="node" pointer-events="visible" data-name="IERC20.symbol">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="128.94" cy="-2096" rx="39.45" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-2091.8" font-family="Times,serif" font-size="14.00" style="">symbol</text>
+</g>
+<!-- IERC20.totalSupply -->
+<g id="node31" class="node" pointer-events="visible" data-name="IERC20.totalSupply">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="128.94" cy="-2042" rx="55.64" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-2037.8" font-family="Times,serif" font-size="14.00" style="">totalSupply</text>
+</g>
+<!-- IERC20.balanceOf -->
+<g id="node32" class="node" pointer-events="visible" data-name="IERC20.balanceOf">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="128.94" cy="-1988" rx="50.92" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-1983.8" font-family="Times,serif" font-size="14.00" style="">balanceOf</text>
+</g>
+<!-- IERC20.allowance -->
+<g id="node33" class="node" pointer-events="visible" data-name="IERC20.allowance">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="128.94" cy="-1934" rx="50.36" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-1929.8" font-family="Times,serif" font-size="14.00" style="">allowance</text>
+</g>
+<!-- IERC20.approve -->
+<g id="node34" class="node" pointer-events="visible" data-name="IERC20.approve">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="128.94" cy="-1880" rx="42.28" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-1875.8" font-family="Times,serif" font-size="14.00" style="">approve</text>
+</g>
+<!-- IERC20.transfer -->
+<g id="node35" class="node" pointer-events="visible" data-name="IERC20.transfer">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="128.94" cy="-1826" rx="40.55" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-1821.8" font-family="Times,serif" font-size="14.00" style="">transfer</text>
+</g>
+<!-- IERC20.transferFrom -->
+<g id="node36" class="node" pointer-events="visible" data-name="IERC20.transferFrom">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="128.94" cy="-1772" rx="61.41" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-1767.8" font-family="Times,serif" font-size="14.00" style="">transferFrom</text>
+</g>
+<!-- ELOPresale.onlyOwner -->
+<g id="node37" class="node" pointer-events="visible" data-name="ELOPresale.onlyOwner">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="187.89,-1372.54 187.89,-1387.46 153.36,-1398 104.52,-1398 69.99,-1387.46 69.99,-1372.54 104.52,-1362 153.36,-1362 187.89,-1372.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="191.88,-1369.58 191.88,-1390.42 153.95,-1402 103.93,-1402 65.99,-1390.42 65.99,-1369.58 103.93,-1358 153.95,-1358 191.88,-1369.58" style=""/>
+<text text-anchor="middle" x="128.94" y="-1375.8" font-family="Times,serif" font-size="14.00" style="">onlyOwner</text>
+</g>
+<!-- ELOPresale.&lt;Constructor&gt; -->
+<g id="node38" class="node" pointer-events="visible" data-name="ELOPresale.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="128.94" cy="-1318" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-1313.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- ELOPresale.init_private -->
+<g id="node39" class="node" pointer-events="visible" data-name="ELOPresale.init_private">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="128.94" cy="-1256" rx="55.61" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-1251.8" font-family="Times,serif" font-size="14.00" style="">init_private</text>
+</g>
+<!-- ELOPresale.presaleStatus -->
+<g id="node40" class="node" pointer-events="visible" data-name="ELOPresale.presaleStatus">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="621.03" cy="-1256" rx="61.98" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-1251.8" font-family="Times,serif" font-size="14.00" style="">presaleStatus</text>
+</g>
+<!-- ELOPresale.userDeposit -->
+<g id="node41" class="node" pointer-events="visible" data-name="ELOPresale.userDeposit">
+
+<ellipse fill="#ff9797" stroke="brown" stroke-width="3" cx="380.09" cy="-1366" rx="57.33" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-1361.8" font-family="Times,serif" font-size="14.00" style="">userDeposit</text>
+</g>
+<!-- ELOPresale.userDeposit&#45;&gt;ELOPresale.presaleStatus -->
+<g id="edge25" class="edge" data-name="ELOPresale.userDeposit-&gt;ELOPresale.presaleStatus">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M430.16,-1355.87C447.03,-1351.61 465.81,-1346 482.3,-1339 519.34,-1323.27 558.33,-1298.94 585.34,-1280.68" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="587.02,-1283.78 593.29,-1275.23 583.06,-1278 587.02,-1283.78" style=""/>
+</g>
+<!-- ELOPresale.payable -->
+<g id="node48" class="node" pointer-events="visible" data-name="ELOPresale.payable">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="621.03" cy="-1366" rx="41.13" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-1361.8" font-family="Times,serif" font-size="14.00" style="">payable</text>
+</g>
+<!-- ELOPresale.userDeposit&#45;&gt;ELOPresale.payable -->
+<g id="edge26" class="edge" data-name="ELOPresale.userDeposit-&gt;ELOPresale.payable">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M438.63,-1366C477.29,-1366 527.92,-1366 565.86,-1366" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="565.68,-1369.5 575.68,-1366 565.68,-1362.5 565.68,-1369.5" style=""/>
+</g>
+<!-- ELOPresale.userWithdrawTokens -->
+<g id="node42" class="node" pointer-events="visible" data-name="ELOPresale.userWithdrawTokens">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="380.09" cy="-1130" rx="94.33" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-1125.8" font-family="Times,serif" font-size="14.00" style="">userWithdrawTokens</text>
+</g>
+<!-- ELOPresale.userWithdrawTokens&#45;&gt;TransferHelper.safeTransfer -->
+<g id="edge28" class="edge" data-name="ELOPresale.userWithdrawTokens-&gt;TransferHelper.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M390.53,-1110.67C408.65,-1075.68 451.78,-1001.95 510.3,-964 522.59,-956.03 537.04,-950.42 551.34,-946.46" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="552.01,-949.9 560.88,-944.11 550.33,-943.1 552.01,-949.9" style=""/>
+</g>
+<!-- ELOPresale.userWithdrawTokens&#45;&gt;ELOPresale.presaleStatus -->
+<g id="edge27" class="edge" data-name="ELOPresale.userWithdrawTokens-&gt;ELOPresale.presaleStatus">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M447.12,-1143.9C459.11,-1147.46 471.29,-1151.79 482.3,-1157 522.72,-1176.13 563.65,-1207.39 590.26,-1229.67" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="587.88,-1232.24 597.76,-1236.05 592.41,-1226.91 587.88,-1232.24" style=""/>
+</g>
+<!-- ELOPresale.userWithdrawBaseTokens -->
+<g id="node43" class="node" pointer-events="visible" data-name="ELOPresale.userWithdrawBaseTokens">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="128.94" cy="-1186" rx="112.88" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-1181.8" font-family="Times,serif" font-size="14.00" style="">userWithdrawBaseTokens</text>
+</g>
+<!-- ELOPresale.userWithdrawBaseTokens&#45;&gt;ELOPresale.presaleStatus -->
+<g id="edge29" class="edge" data-name="ELOPresale.userWithdrawBaseTokens-&gt;ELOPresale.presaleStatus">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M187.11,-1202.74C205.39,-1209.44 225.21,-1218.17 241.88,-1229 260.85,-1241.33 256.97,-1256.34 277.88,-1265 325.2,-1284.6 463.96,-1273.72 549.54,-1264.52" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="549.71,-1268.03 559.27,-1263.46 548.95,-1261.07 549.71,-1268.03" style=""/>
+</g>
+<!-- ELOPresale.ownerWithdrawTokens -->
+<g id="node44" class="node" pointer-events="visible" data-name="ELOPresale.ownerWithdrawTokens">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="380.09" cy="-1184" rx="102.42" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-1179.8" font-family="Times,serif" font-size="14.00" style="">ownerWithdrawTokens</text>
+</g>
+<!-- ELOPresale.userWithdrawBaseTokens&#45;&gt;ELOPresale.ownerWithdrawTokens -->
+<g id="edge32" class="edge" data-name="ELOPresale.userWithdrawBaseTokens-&gt;ELOPresale.ownerWithdrawTokens">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M242.85,-1185.09C249.76,-1185.04 256.73,-1184.98 263.65,-1184.93" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="263.47,-1188.43 273.44,-1184.85 263.41,-1181.43 263.47,-1188.43" style=""/>
+</g>
+<!-- ELOPresale.userWithdrawBaseTokens&#45;&gt;ELOPresale.payable -->
+<g id="edge30" class="edge" data-name="ELOPresale.userWithdrawBaseTokens-&gt;ELOPresale.payable">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M200.52,-1201.12C216.02,-1207.44 231.02,-1216.37 241.88,-1229 290.52,-1285.59 219.73,-1346.23 277.88,-1393 365.7,-1463.64 510.53,-1415.15 580.18,-1385.02" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="581.4,-1388.3 589.12,-1381.04 578.56,-1381.91 581.4,-1388.3" style=""/>
+</g>
+<!-- reciver.transfer -->
+<g id="node76" class="node" pointer-events="visible" data-name="reciver.transfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="621.03" cy="-798" rx="40.55" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-793.8" font-family="Times,serif" font-size="14.00" style="">transfer</text>
+</g>
+<!-- ELOPresale.userWithdrawBaseTokens&#45;&gt;reciver.transfer -->
+<g id="edge31" class="edge" data-name="ELOPresale.userWithdrawBaseTokens-&gt;reciver.transfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M214.34,-1173.15C224.13,-1169.53 233.57,-1164.91 241.88,-1159 265.99,-1141.85 259.73,-1126.37 277.88,-1103 370.91,-983.16 388.91,-943.99 510.3,-853 530.54,-837.83 555.6,-824.9 576.66,-815.4" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="578,-818.63 585.76,-811.42 575.2,-812.22 578,-818.63" style=""/>
+</g>
+<!-- ELOPresale.ownerWithdrawTokens&#45;&gt;TransferHelper.safeTransfer -->
+<g id="edge34" class="edge" data-name="ELOPresale.ownerWithdrawTokens-&gt;TransferHelper.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M461.96,-1172.17C469.61,-1168.34 476.62,-1163.39 482.3,-1157 539.91,-1092.24 452.06,-1028.19 510.3,-964 520.39,-952.88 534.26,-945.99 548.75,-941.8" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="549.13,-945.31 558.05,-939.59 547.51,-938.5 549.13,-945.31" style=""/>
+</g>
+<!-- ELOPresale.ownerWithdrawTokens&#45;&gt;ELOPresale.presaleStatus -->
+<g id="edge33" class="edge" data-name="ELOPresale.ownerWithdrawTokens-&gt;ELOPresale.presaleStatus">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M441.99,-1199.66C455.31,-1203.25 469.31,-1207.15 482.3,-1211 510.05,-1219.23 540.68,-1229.15 565.99,-1237.58" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="564.86,-1240.89 575.46,-1240.75 567.09,-1234.26 564.86,-1240.89" style=""/>
+</g>
+<!-- ELOPresale.purchaseICOCoin -->
+<g id="node45" class="node" pointer-events="visible" data-name="ELOPresale.purchaseICOCoin">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="380.09" cy="-1312" rx="80.53" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-1307.8" font-family="Times,serif" font-size="14.00" style="">purchaseICOCoin</text>
+</g>
+<!-- ELOPresale.purchaseICOCoin&#45;&gt;ELOPresale.presaleStatus -->
+<g id="edge35" class="edge" data-name="ELOPresale.purchaseICOCoin-&gt;ELOPresale.presaleStatus">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M438.93,-1298.44C474.88,-1290.02 521.09,-1279.19 557.83,-1270.58" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="558.52,-1274.01 567.45,-1268.32 556.92,-1267.2 558.52,-1274.01" style=""/>
+</g>
+<!-- ELOPresale.purchaseICOCoin&#45;&gt;ELOPresale.payable -->
+<g id="edge36" class="edge" data-name="ELOPresale.purchaseICOCoin-&gt;ELOPresale.payable">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M439.85,-1325.28C479.95,-1334.34 532.47,-1346.21 570.46,-1354.8" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="569.27,-1358.12 579.79,-1356.91 570.81,-1351.29 569.27,-1358.12" style=""/>
+</g>
+<!-- ELOPresale.purchaseICOCoin&#45;&gt;reciver.transfer -->
+<g id="edge37" class="edge" data-name="ELOPresale.purchaseICOCoin-&gt;reciver.transfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M437.41,-1298.06C454.55,-1290.99 471.66,-1280.49 482.3,-1265 534.26,-1189.36 459.47,-929.4 510.3,-853 524.24,-832.04 548.68,-818.71 570.96,-810.44" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="571.82,-813.84 580.17,-807.32 569.58,-807.21 571.82,-813.84" style=""/>
+</g>
+<!-- ELOPresale.getTimestamp -->
+<g id="node46" class="node" pointer-events="visible" data-name="ELOPresale.getTimestamp">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="128.94" cy="-1132" rx="66.06" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-1127.8" font-family="Times,serif" font-size="14.00" style="">getTimestamp</text>
+</g>
+<!-- ELOPresale.refundTokens -->
+<g id="node47" class="node" pointer-events="visible" data-name="ELOPresale.refundTokens">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="380.09" cy="-1238" rx="64.84" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-1233.8" font-family="Times,serif" font-size="14.00" style="">refundTokens</text>
+</g>
+<!-- ELOPresale.refundTokens&#45;&gt;TransferHelper.safeTransfer -->
+<g id="edge39" class="edge" data-name="ELOPresale.refundTokens-&gt;TransferHelper.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M444.31,-1233.19C458.68,-1229.12 472.56,-1222.29 482.3,-1211 554.44,-1127.32 437.35,-1046.97 510.3,-964 520.22,-952.72 534.02,-945.77 548.49,-941.57" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="548.88,-945.08 557.79,-939.36 547.25,-938.27 548.88,-945.08" style=""/>
+</g>
+<!-- ELOPresale.refundTokens&#45;&gt;ELOPresale.presaleStatus -->
+<g id="edge38" class="edge" data-name="ELOPresale.refundTokens-&gt;ELOPresale.presaleStatus">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M444.18,-1242.75C475.67,-1245.13 513.95,-1248.01 546.74,-1250.48" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="546.22,-1253.95 556.46,-1251.21 546.75,-1246.97 546.22,-1253.95" style=""/>
+</g>
+<!-- IERC20Metadata.name -->
+<g id="node49" class="node" pointer-events="visible" data-name="IERC20Metadata.name">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="128.94" cy="-2397" rx="31.9" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-2392.8" font-family="Times,serif" font-size="14.00" style="">name</text>
+</g>
+<!-- IERC20Metadata.symbol -->
+<g id="node50" class="node" pointer-events="visible" data-name="IERC20Metadata.symbol">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="128.94" cy="-2343" rx="39.45" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-2338.8" font-family="Times,serif" font-size="14.00" style="">symbol</text>
+</g>
+<!-- IERC20Metadata.decimals -->
+<g id="node51" class="node" pointer-events="visible" data-name="IERC20Metadata.decimals">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="128.94" cy="-2289" rx="45.22" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-2284.8" font-family="Times,serif" font-size="14.00" style="">decimals</text>
+</g>
+<!-- SafeMath.add -->
+<g id="node52" class="node" pointer-events="visible" data-name="SafeMath.add">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="128.94" cy="-2752" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-2747.8" font-family="Times,serif" font-size="14.00" style="">add</text>
+</g>
+<!-- SafeMath.sub -->
+<g id="node53" class="node" pointer-events="visible" data-name="SafeMath.sub">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="128.94" cy="-2680" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-2675.8" font-family="Times,serif" font-size="14.00" style="">sub</text>
+</g>
+<!-- SafeMath.sub&#45;&gt;SafeMath.sub -->
+<g id="edge40" class="edge" data-name="SafeMath.sub-&gt;SafeMath.sub">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M102.61,-2686.89C67.92,-2699.39 76.7,-2716 128.94,-2716 174.04,-2716 186.74,-2703.62 167.06,-2692.19" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="168.58,-2689.04 158.02,-2688.13 165.71,-2695.43 168.58,-2689.04" style=""/>
+</g>
+<!-- SafeMath.mul -->
+<g id="node54" class="node" pointer-events="visible" data-name="SafeMath.mul">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="128.94" cy="-2626" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-2621.8" font-family="Times,serif" font-size="14.00" style="">mul</text>
+</g>
+<!-- SafeMath.div -->
+<g id="node55" class="node" pointer-events="visible" data-name="SafeMath.div">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="128.94" cy="-2554" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-2549.8" font-family="Times,serif" font-size="14.00" style="">div</text>
+</g>
+<!-- SafeMath.div&#45;&gt;SafeMath.div -->
+<g id="edge41" class="edge" data-name="SafeMath.div-&gt;SafeMath.div">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M102.61,-2560.89C67.92,-2573.39 76.7,-2590 128.94,-2590 174.04,-2590 186.74,-2577.62 167.06,-2566.19" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="168.58,-2563.04 158.02,-2562.13 165.71,-2569.43 168.58,-2563.04" style=""/>
+</g>
+<!-- SafeMath.mod -->
+<g id="node56" class="node" pointer-events="visible" data-name="SafeMath.mod">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="128.94" cy="-2482" rx="28.41" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-2477.8" font-family="Times,serif" font-size="14.00" style="">mod</text>
+</g>
+<!-- SafeMath.mod&#45;&gt;SafeMath.mod -->
+<g id="edge42" class="edge" data-name="SafeMath.mod-&gt;SafeMath.mod">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M101.65,-2489.24C68.09,-2501.7 77.19,-2518 128.94,-2518 173.41,-2518 186.38,-2505.96 167.86,-2494.67" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="169.51,-2491.58 158.97,-2490.53 166.55,-2497.93 169.51,-2491.58" style=""/>
+</g>
+<!-- ELOToken.name -->
+<g id="node57" class="node" pointer-events="visible" data-name="ELOToken.name">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="380.09" cy="-713" rx="31.9" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-708.8" font-family="Times,serif" font-size="14.00" style="">name</text>
+</g>
+<!-- ELOToken.symbol -->
+<g id="node58" class="node" pointer-events="visible" data-name="ELOToken.symbol">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="380.09" cy="-659" rx="39.45" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-654.8" font-family="Times,serif" font-size="14.00" style="">symbol</text>
+</g>
+<!-- ELOToken.decimals -->
+<g id="node59" class="node" pointer-events="visible" data-name="ELOToken.decimals">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="380.09" cy="-605" rx="45.22" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-600.8" font-family="Times,serif" font-size="14.00" style="">decimals</text>
+</g>
+<!-- ELOToken.totalSupply -->
+<g id="node60" class="node" pointer-events="visible" data-name="ELOToken.totalSupply">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="380.09" cy="-551" rx="55.64" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-546.8" font-family="Times,serif" font-size="14.00" style="">totalSupply</text>
+</g>
+<!-- ELOToken.balanceOf -->
+<g id="node61" class="node" pointer-events="visible" data-name="ELOToken.balanceOf">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="380.09" cy="-497" rx="50.92" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-492.8" font-family="Times,serif" font-size="14.00" style="">balanceOf</text>
+</g>
+<!-- ELOToken.transfer&#45;&gt;Context._msgSender -->
+<g id="edge55" class="edge" data-name="ELOToken.transfer-&gt;Context._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M421.89,-442.61C443.07,-440.14 467.55,-433.3 482.3,-416 521.88,-369.6 475.66,-193.19 510.3,-143 522.53,-125.28 542.2,-112.98 561.53,-104.58" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="562.64,-107.91 570.64,-100.96 560.05,-101.41 562.64,-107.91" style=""/>
+</g>
+<!-- ELOToken._transfer -->
+<g id="node68" class="node" pointer-events="visible" data-name="ELOToken._transfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="621.03" cy="-443" rx="45.21" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-438.8" font-family="Times,serif" font-size="14.00" style="">_transfer</text>
+</g>
+<!-- ELOToken.transfer&#45;&gt;ELOToken._transfer -->
+<g id="edge54" class="edge" data-name="ELOToken.transfer-&gt;ELOToken._transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M421.89,-443C460.31,-443 518.25,-443 561.57,-443" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="561.48,-446.5 571.48,-443 561.48,-439.5 561.48,-446.5" style=""/>
+</g>
+<!-- ELOToken.allowance -->
+<g id="node63" class="node" pointer-events="visible" data-name="ELOToken.allowance">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="380.09" cy="-389" rx="50.36" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-384.8" font-family="Times,serif" font-size="14.00" style="">allowance</text>
+</g>
+<!-- ELOToken.approve -->
+<g id="node64" class="node" pointer-events="visible" data-name="ELOToken.approve">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="380.09" cy="-281" rx="42.28" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-276.8" font-family="Times,serif" font-size="14.00" style="">approve</text>
+</g>
+<!-- ELOToken.approve&#45;&gt;Context._msgSender -->
+<g id="edge57" class="edge" data-name="ELOToken.approve-&gt;Context._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M423.71,-279.35C443.97,-276.38 467.04,-269.47 482.3,-254 518.03,-217.78 478.44,-182.67 510.3,-143 523.89,-126.08 544.04,-113.91 563.38,-105.4" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="564.5,-108.72 572.44,-101.71 561.86,-102.24 564.5,-108.72" style=""/>
+</g>
+<!-- ELOToken._setAllowance -->
+<g id="node71" class="node" pointer-events="visible" data-name="ELOToken._setAllowance">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="621.03" cy="-254" rx="68.34" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-249.8" font-family="Times,serif" font-size="14.00" style="">_setAllowance</text>
+</g>
+<!-- ELOToken.approve&#45;&gt;ELOToken._setAllowance -->
+<g id="edge56" class="edge" data-name="ELOToken.approve-&gt;ELOToken._setAllowance">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M422.44,-276.33C455.7,-272.57 503.36,-267.18 543.53,-262.64" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="543.73,-266.14 553.28,-261.54 542.95,-259.19 543.73,-266.14" style=""/>
+</g>
+<!-- ELOToken.transferFrom -->
+<g id="node65" class="node" pointer-events="visible" data-name="ELOToken.transferFrom">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="380.09" cy="-335" rx="61.41" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-330.8" font-family="Times,serif" font-size="14.00" style="">transferFrom</text>
+</g>
+<!-- ELOToken.transferFrom&#45;&gt;Context._msgSender -->
+<g id="edge59" class="edge" data-name="ELOToken.transferFrom-&gt;Context._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M432.29,-324.13C450.47,-320.06 469.56,-312.98 482.3,-299 532.41,-244.03 466.05,-193.79 510.3,-134 521.22,-119.25 537.2,-108.2 553.61,-100.38" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="554.98,-103.6 562.79,-96.43 552.22,-97.16 554.98,-103.6" style=""/>
+</g>
+<!-- ELOToken.transferFrom&#45;&gt;Context._msgSender -->
+<g id="edge61" class="edge" data-name="ELOToken.transferFrom-&gt;Context._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M441.51,-339.11C456.71,-335.48 471.7,-328.63 482.3,-317 532.41,-262.03 466.05,-211.79 510.3,-152 525.65,-131.26 551.03,-117.84 573.51,-108.49" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="574.8,-111.75 582.81,-104.82 572.22,-105.24 574.8,-111.75" style=""/>
+</g>
+<!-- ELOToken.transferFrom&#45;&gt;ELOToken._transfer -->
+<g id="edge58" class="edge" data-name="ELOToken.transferFrom-&gt;ELOToken._transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M438.79,-341.74C454.14,-345.73 469.89,-352.04 482.3,-362 503.38,-378.93 489.06,-399.28 510.3,-416 525.07,-427.63 544.16,-434.33 562.26,-438.17" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="561.44,-441.58 571.9,-439.91 562.68,-434.69 561.44,-441.58" style=""/>
+</g>
+<!-- ELOToken.transferFrom&#45;&gt;ELOToken._setAllowance -->
+<g id="edge60" class="edge" data-name="ELOToken.transferFrom-&gt;ELOToken._setAllowance">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M429.81,-323.19C446.57,-318.82 465.37,-313.56 482.3,-308 511.9,-298.28 544.37,-285.65 570.34,-275.05" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="571.45,-278.38 579.36,-271.34 568.78,-271.91 571.45,-278.38" style=""/>
+</g>
+<!-- ELOToken.increaseAllowance -->
+<g id="node66" class="node" pointer-events="visible" data-name="ELOToken.increaseAllowance">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="380.09" cy="-173" rx="84.49" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-168.8" font-family="Times,serif" font-size="14.00" style="">increaseAllowance</text>
+</g>
+<!-- ELOToken.increaseAllowance&#45;&gt;Context._msgSender -->
+<g id="edge63" class="edge" data-name="ELOToken.increaseAllowance-&gt;Context._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M414.54,-155.14C434.34,-147.92 459.86,-139.86 482.3,-132 507.94,-123.02 535.96,-112.39 560,-103.66" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="561.1,-106.98 569.33,-100.3 558.73,-100.39 561.1,-106.98" style=""/>
+</g>
+<!-- ELOToken.increaseAllowance&#45;&gt;Context._msgSender -->
+<g id="edge64" class="edge" data-name="ELOToken.increaseAllowance-&gt;Context._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M448.24,-161.27C459.65,-157.72 471.34,-153.84 482.3,-150 516.43,-138.05 554.78,-123.17 582.33,-110.71" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="583.48,-114.04 591.06,-106.64 580.52,-107.7 583.48,-114.04" style=""/>
+</g>
+<!-- ELOToken.increaseAllowance&#45;&gt;ELOToken._setAllowance -->
+<g id="edge62" class="edge" data-name="ELOToken.increaseAllowance-&gt;ELOToken._setAllowance">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M438.69,-187.16C453.03,-191.02 468.31,-195.41 482.3,-200 511.9,-209.72 544.37,-222.35 570.34,-232.95" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="568.78,-236.09 579.36,-236.66 571.45,-229.62 568.78,-236.09" style=""/>
+</g>
+<!-- ELOToken.decreaseAllowance -->
+<g id="node67" class="node" pointer-events="visible" data-name="ELOToken.decreaseAllowance">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="380.09" cy="-227" rx="86.2" ry="18" style=""/>
+<text text-anchor="middle" x="380.09" y="-222.8" font-family="Times,serif" font-size="14.00" style="">decreaseAllowance</text>
+</g>
+<!-- ELOToken.decreaseAllowance&#45;&gt;Context._msgSender -->
+<g id="edge65" class="edge" data-name="ELOToken.decreaseAllowance-&gt;Context._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M437.09,-212.3C453.02,-207.95 469.51,-201.5 482.3,-191 504.12,-173.09 490.42,-154.04 510.3,-134 523.28,-120.91 540.02,-110.39 556.49,-102.54" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="557.88,-105.76 565.61,-98.52 555.05,-99.35 557.88,-105.76" style=""/>
+</g>
+<!-- ELOToken.decreaseAllowance&#45;&gt;Context._msgSender -->
+<g id="edge67" class="edge" data-name="ELOToken.decreaseAllowance-&gt;Context._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M463.15,-220.83C470.03,-217.64 476.54,-213.73 482.3,-209 504.12,-191.09 490.42,-172.04 510.3,-152 529.04,-133.11 555.61,-119.56 577.91,-109.59" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="579.24,-112.83 587.01,-105.62 576.44,-106.41 579.24,-112.83" style=""/>
+</g>
+<!-- ELOToken.decreaseAllowance&#45;&gt;ELOToken._setAllowance -->
+<g id="edge66" class="edge" data-name="ELOToken.decreaseAllowance-&gt;ELOToken._setAllowance">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M458.34,-235.73C485.65,-238.81 516.33,-242.28 543.57,-245.36" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="542.89,-248.81 553.22,-246.45 543.68,-241.85 542.89,-248.81" style=""/>
+</g>
+<!-- ELOToken._beforeTokenTransfer -->
+<g id="node72" class="node" pointer-events="visible" data-name="ELOToken._beforeTokenTransfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="857.66" cy="-443" rx="97.8" ry="18" style=""/>
+<text text-anchor="middle" x="857.66" y="-438.8" font-family="Times,serif" font-size="14.00" style="">_beforeTokenTransfer</text>
+</g>
+<!-- ELOToken._transfer&#45;&gt;ELOToken._beforeTokenTransfer -->
+<g id="edge68" class="edge" data-name="ELOToken._transfer-&gt;ELOToken._beforeTokenTransfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M667.55,-443C690.08,-443 718.36,-443 746.13,-443" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="745.81,-446.5 755.81,-443 745.81,-439.5 745.81,-446.5" style=""/>
+</g>
+<!-- ELOToken._mint&#45;&gt;ELOToken._beforeTokenTransfer -->
+<g id="edge69" class="edge" data-name="ELOToken._mint-&gt;ELOToken._beforeTokenTransfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M643.27,-590.34C683.01,-562.89 769.12,-503.44 818.95,-469.04" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="820.87,-471.97 827.11,-463.41 816.89,-466.21 820.87,-471.97" style=""/>
+</g>
+<!-- ELOToken._burn -->
+<g id="node70" class="node" pointer-events="visible" data-name="ELOToken._burn">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="621.03" cy="-389" rx="33.63" ry="18" style=""/>
+<text text-anchor="middle" x="621.03" y="-384.8" font-family="Times,serif" font-size="14.00" style="">_burn</text>
+</g>
+<!-- ELOToken._burn&#45;&gt;ELOToken._beforeTokenTransfer -->
+<g id="edge70" class="edge" data-name="ELOToken._burn-&gt;ELOToken._beforeTokenTransfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M653.19,-396.17C685.52,-403.61 737.32,-415.53 780.56,-425.49" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="779.61,-428.86 790.14,-427.69 781.18,-422.04 779.61,-428.86" style=""/>
+</g>
+<!-- ConvertLib.convert -->
+<g id="node73" class="node" pointer-events="visible" data-name="ConvertLib.convert">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="128.94" cy="-2837" rx="39.99" ry="18" style=""/>
+<text text-anchor="middle" x="128.94" y="-2832.8" font-family="Times,serif" font-size="14.00" style="">convert</text>
+</g>
+<!-- key -->
+<g id="node77" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="193.94,-2992 63.94,-2992 63.94,-2904 193.94,-2904 193.94,-2992" style=""/>
+<text text-anchor="start" x="113.58" y="-2973.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="109.69" y="-2953.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="87.14" y="-2933.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="73.54" y="-2913.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node78" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="407.09,-2992 353.09,-2992 353.09,-2904 407.09,-2904 407.09,-2992" style=""/>
+<text text-anchor="start" x="370.09" y="-2973.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="370.09" y="-2953.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="none" points="368.09,-2928 368.09,-2948 393.09,-2948 393.09,-2928 368.09,-2928" style=""/>
+<text text-anchor="start" x="370.09" y="-2933.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="370.09,-2910 370.09,-2926 391.09,-2926 391.09,-2910 370.09,-2910" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge71" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M186.94,-2978C262.63,-2978 284.65,-2978 354.47,-2978" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="354.06,-2981.5 364.06,-2978 354.06,-2974.5 354.06,-2981.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge72" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M186.94,-2958C262.63,-2958 284.65,-2958 354.47,-2958" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="354.06,-2961.5 364.06,-2958 354.06,-2954.5 354.06,-2961.5" style=""/>
+</g>
+</g>
+</svg>

@@ -26,11 +26,11 @@ export default function Mint() {
         sx={{
           bgcolor: 'neutral.main',
           py: 7,
-          borderTop: 1,
-          borderBottom: 1,
+          'inset-block-start': 1, // Use quotes for hyphenated keys
+          'inset-block-end': 1, // Use quotes for hyphenated keys
           borderColor: 'grey.100',
           mb: 4,
-        }}
+        }} // Add missing closing > and remove extra }
       >
         <Container>
           <Typography

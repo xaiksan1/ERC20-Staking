@@ -44,11 +44,4 @@ const tokenValueTxt = (value, decimals, symbol) =>
   `${n4.format(tokenValue(value, decimals))} ${symbol}`;
 
 // Exporting the constants and functions
-export {
-  n6,
-  n4,
-  c2,
-  getEllipsisTxt,
-  tokenValue,
-  tokenValueTxt,
-};
+export { n6, n4, c2, getEllipsisTxt, tokenValue, tokenValueTxt };

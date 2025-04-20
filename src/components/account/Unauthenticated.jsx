@@ -1,29 +1,33 @@
 import { Fragment, useState } from 'react';
 import Button from '@mui/material/Button';
-import WalletProviders from './NetworkWalletProviders';
 import WalletIcon from '../ui/icons/Wallet';
 
+/**
+ * The Unauthenticated component renders a button for wallet connection
+ * and manages the state for displaying WalletProviders.
+ */
 const Unauthenticated = () => {
-  const [walletProvidersDialogOpen, setWalletProvidersDialogOpen] = useState(false);
+  const [isWalletProvidersDialogOpen, setIsWalletProvidersDialogOpen] = useState(false);
 
   const handleWalletProvidersDialogToggle = () => {
-    setWalletProvidersDialogOpen(!walletProvidersDialogOpen);
+    setIsWalletProvidersDialogOpen(!isWalletProvidersDialogOpen);
   };
 
   return (
     <Fragment>
       <Button
         variant="contained"
+        color="primary"
         disableElevation
         fullWidth
         onClick={handleWalletProvidersDialogToggle}
-        startIcon={<WalletIcon />}
-        sx={{ boxShadow: 'rgb(0 0 0 / 8%) 0px 8px 28px' }}
+        sx={(theme) => ({ boxShadow: theme.shadows[4] })}
       >
-        Wallet Connect
+        <WalletIcon />
+        Connect Wallet
       </Button>
       <WalletProviders
-        walletProvidersDialogOpen={walletProvidersDialogOpen}
+        walletProvidersDialogOpen={isWalletProvidersDialogOpen}
         handleWalletProvidersDialogToggle={handleWalletProvidersDialogToggle}
       />
     </Fragment>

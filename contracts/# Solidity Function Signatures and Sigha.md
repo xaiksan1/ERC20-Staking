@@ -1,0 +1,42 @@
+# Solidity Function Signatures and Sighashes
+
+| Function Name | Sighash    | Function Signature |
+| ------------- | ---------- | ------------------ |
+| totalSupply | 18160ddd | totalSupply() |
+| balanceOf | 70a08231 | balanceOf(address) |
+| transfer | a9059cbb | transfer(address,uint256) |
+| allowance | dd62ed3e | allowance(address,address) |
+| approve | 095ea7b3 | approve(address,uint256) |
+| transferFrom | 23b872dd | transferFrom(address,address,uint256) |
+| name | 06fdde03 | name() |
+| symbol | 95d89b41 | symbol() |
+| decimals | 313ce567 | decimals() |
+| owner | 8da5cb5b | owner() |
+| renounceOwnership | 715018a6 | renounceOwnership() |
+| transferOwnership | f2fde38b | transferOwnership(address) |
+| geUnlockTime | b6c52324 | geUnlockTime() |
+| lock | dd467064 | lock(uint256) |
+| unlock | a69df4b5 | unlock() |
+| name | 06fdde03 | name() |
+| symbol | 95d89b41 | symbol() |
+| decimals | 313ce567 | decimals() |
+| totalSupply | 18160ddd | totalSupply() |
+| balanceOf | 70a08231 | balanceOf(address) |
+| transfer | a9059cbb | transfer(address,uint256) |
+| allowance | dd62ed3e | allowance(address,address) |
+| approve | 095ea7b3 | approve(address,uint256) |
+| transferFrom | 23b872dd | transferFrom(address,address,uint256) |
+| increaseAllowance | 39509351 | increaseAllowance(address,uint256) |
+| decreaseAllowance | a457c2d7 | decreaseAllowance(address,uint256) |
+| mint | 40c10f19 | mint(address,uint256) |
+| burn | 42966c68 | burn(uint256) |
+| burnFrom | 79cc6790 | burnFrom(address,uint256) |
+| pause | 4a220e59 | pause() |
+| unpause | 4fd6e0b5 | unpause() |
+| isPaused | 2e1a7d4d | isPaused() |
+| setMinter | 0f8b5e1c | setMinter(address) |
+| getMinter | 0f8b5e1c | getMinter() |
+| setBurner | 0f8b5e1c | setBurner(address) |
+| getBurner | 0f8b5e1c | getBurner() |
+| setPauser | 0f8b5e1c | setPauser(address) |
+| getPauser | 0f8b5e1c | getPauser() |

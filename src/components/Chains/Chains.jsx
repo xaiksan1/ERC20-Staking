@@ -8,9 +8,9 @@ const styles = {
   item: {
     display: 'flex',
     alignItems: 'center',
-    height: '42px',
-    fontWeight: '500',
-    fontSize: '14px',
+    blockSize: '42px',
+    fontWeight: 500,
+    fontSize: 14,
     padding: '0 10px',
   },
   button: {
@@ -51,7 +51,7 @@ function Chains() {
     <Menu onClick={handleMenuClick}>
       {menuItems.map((item) => (
         <Menu.Item key={item.key} icon={item.icon} style={styles.item}>
-          <span style={{ marginLeft: '5px' }}>{item.value}</span>
+          <span style={{ insetInlineStart: '5px' }}>{item.value}</span>
         </Menu.Item>
       ))}
     </Menu>
@@ -65,7 +65,7 @@ function Chains() {
           icon={selected?.icon}
           style={{ ...styles.button, ...styles.item }}
         >
-          <span style={{ marginLeft: '5px' }}>{selected?.value}</span>
+          <span style={{ insetInlineStart: '5px' }}>{selected?.value}</span>
           <DownOutlined />
         </Button>
       </Dropdown>

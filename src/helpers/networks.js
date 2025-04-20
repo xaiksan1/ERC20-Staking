@@ -91,5 +91,5 @@ export {
   getNetworkByChain,
   getChainById,
   getExplorer,
-  getWrappedNative
+  getWrappedNative,
 };

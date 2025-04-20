@@ -5,7 +5,7 @@ import Container from '@mui/material/Container';
 const HeroSection = () => {
   return (
     <Container className="fadeInUp">
-      <Box sx={{ maxWidth: '800px', py: 5, my: 5, mx: 'auto' }}>
+      <Box sx={{ inlineSize: '800px', py: 5, my: 5, mx: 'auto' }}>
         <Typography
           variant="h5"
           color="primary.main"

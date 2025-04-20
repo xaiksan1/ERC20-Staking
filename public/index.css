@@ -346,6 +346,7 @@ button::-moz-focus-inner {
 
 .fa-rotate-90 {
   -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=1)';
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
 
 [dir='ltr'] .fa-rotate-90 {

@@ -13,8 +13,8 @@ const AlreadyConvincedSection = () => {
         py: 7,
         textAlign: 'center',
         bgcolor: 'neutral.main',
-        borderTop: 1,
-        borderBottom: 1,
+        'inset-block-start': 1,
+        'inset-block-end': 1,
         borderColor: 'grey.100',
       }}
     >
@@ -35,7 +35,7 @@ const AlreadyConvincedSection = () => {
           color="text.secondary"
           sx={{
             mb: 3,
-            maxWidth: '500px',
+            maxInlineSize: '500px',
             mx: 'auto',
           }}
         >

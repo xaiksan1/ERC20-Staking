@@ -558,7 +558,7 @@ contract ELOToken is Context, IERC20, IERC20Metadata, Ownable {
      * - `spender` cannot be the zero address.
      */
     function approve(address spender, uint256 amount) public virtual override returns (bool) {
-        _approve(_msgSender(), spender, amount);
+        _setAllowance(_msgSender(), spender, amount);
         return true;
     }
 
@@ -580,7 +580,7 @@ contract ELOToken is Context, IERC20, IERC20Metadata, Ownable {
 
         uint256 currentAllowance = _allowances[sender][_msgSender()];
         require(currentAllowance >= amount, "ERC20: transfer amount exceeds allowance");
-        _approve(sender, _msgSender(), currentAllowance - amount);
+        _setAllowance(sender, _msgSender(), currentAllowance - amount);
 
         return true;
     }
@@ -598,7 +598,7 @@ contract ELOToken is Context, IERC20, IERC20Metadata, Ownable {
      * - `spender` cannot be the zero address.
      */
     function increaseAllowance(address spender, uint256 addedValue) public virtual returns (bool) {
-        _approve(_msgSender(), spender, _allowances[_msgSender()][spender] + addedValue);
+        _setAllowance(_msgSender(), spender, _allowances[_msgSender()][spender] + addedValue);
         return true;
     }
 
@@ -619,7 +619,7 @@ contract ELOToken is Context, IERC20, IERC20Metadata, Ownable {
     function decreaseAllowance(address spender, uint256 subtractedValue) public virtual returns (bool) {
         uint256 currentAllowance = _allowances[_msgSender()][spender];
         require(currentAllowance >= subtractedValue, "ERC20: decreased allowance below zero");
-        _approve(_msgSender(), spender, currentAllowance - subtractedValue);
+        _setAllowance(_msgSender(), spender, currentAllowance - subtractedValue);
 
         return true;
     }
@@ -709,10 +709,14 @@ contract ELOToken is Context, IERC20, IERC20Metadata, Ownable {
      * - `owner` cannot be the zero address.
      * - `spender` cannot be the zero address.
      */
-    function _approve(address owner, address spender, uint256 amount) internal virtual {
+    function _setAllowance(address owner, address spender, uint256 amount) internal virtual {
         require(owner != address(0), "ERC20: approve from the zero address");
         require(spender != address(0), "ERC20: approve to the zero address");
 
+        // Set the allowance of `spender` over the `owner`'s tokens to the specified `amount`.
+        // Directly updating `_allowances` here for efficiency, as this function is internal
+        // Emit an Approval event to signal the change in allowance
+        emit Approval(owner, spender, amount);
         _allowances[owner][spender] = amount;
         emit Approval(owner, spender, amount);
     }

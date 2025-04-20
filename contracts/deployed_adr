@@ -1,20 +1,22 @@
+# The address below represents the contract owner on the BSC testnet.
 BSC testnet => 0x5C29099Dc53ddf3b3Fa3a299C48EC1Bff9C59d29  owner
-
+token (deployed token contract address) => 0x6154818f854f5009C5CFa47213C68598E9dE02FA
 token => 0x6154818f854f5009C5CFa47213C68598E9dE02FA
+# The address below represents the presale contract on the BSC testnet.
 presale=> 0xDD1C2603315A0C1ad649819A70451D5529F53398
-
+token rate   100000  # tokens per BNB
 token rate   100000
 
-raise min    100000000000000000
+raise min    100000000000000000  # in wei
 
-raise max    50000000000000000000
+raise max    50000000000000000000  # in wei
 
-softcap      400000000000000000000
+soft_cap      400000000000000000000
 
-hardcap      1000000000000000000000
+hard_cap      1000000000000000000000
 
-presale start 
+presale start  1698768000  # Example timestamp for presale start
 
-presale end   
+presale end    1709999999  # Placeholder timestamp
 
 

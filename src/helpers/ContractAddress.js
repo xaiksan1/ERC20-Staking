@@ -1,4 +1,4 @@
-export const  CONTRACT_ADDRESS = {
+export const CONTRACT_ADDRESS = {
   // ERC721 contract address
   ERC_721: '0xe66326CE9B97Bd59CCE370692aeeF8fA9feadEF6',
 

@@ -3,10 +3,26 @@
 }
 
 .css-18rp6dk-MuiInputBase-root-MuiInput-root:after {
-  border-bottom: 1px solid #3f51b5 !important;
+  border-block-end: 1px solid #3f51b5 !important;
 }
 
 .css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
   /* display: none !important; */
   background-color: rgba(0, 0, 0, 0) !important;
+}
+.css-1s2u09g-MuiButtonBase-root-MuiButton-root {
+  background-color: #3f51b5 !important;
+  color: white !important;
+}
+.css-1s2u09g-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: #3f51b5 !important;
+  color: white !important;
+}
+.css-1s2u09g-MuiButtonBase-root-MuiButton-root:disabled {
+  background-color: #3f51b5 !important;
+  color: white !important;
+}
+.css-1s2u09g-MuiButtonBase-root-MuiButton-root:disabled:hover {
+  background-color: #3f51b5 !important;
+  color: white !important;
 }

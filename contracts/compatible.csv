@@ -1,0 +1,57 @@
+######################
+## draw.io compatible CSV.
+##    to import, visit draw.io and goto: Arrange -> Insert -> Advanced -> CSV ... 
+##
+##
+## GENERATOR: https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor
+######################
+# label: %label%
+# parentstyle: swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=%fill%;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;arcSize=20;
+# style: shape=%type%;html=1;fillColor=%fill%;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Courier New;fontSize=10;align=left;%override%
+# namespace: sva-1745170330332
+# width: auto
+# height: auto
+# ignore: id,shape,fill,stroke,refs
+# identity: id
+# parent: rparent
+## padding: 40
+## nodespacing: 40
+## levelspacing: 40
+## edgespacing: 40
+## layout: horizontalflow
+# connect: {"from": "refs", "to": "id", "style": "curved=1;fontSize=11;noEdgeStyle=1;strokeColor=#6666FF;dashed=1;dashPattern=1 4;"}
+# connect: {"from": "calls", "to": "id", "style": "curved=1;fontSize=11;noEdgeStyle=1;strokeColor=#6666FF;dashed=0;dashPattern=1 4;"}
+## CSV data starts below this line
+## id,rparent,label, type, fill, override, refs
+id,rparent,label,type,fill,override,refs
+
+
+2,-,Ownable,,#e0e0e0,,
+2_i0,2,Context,mxgraph.bootstrap.rrect;strokeColor=none,#fff2cc;strokeColor=#d6b656;dashed=1,fontSize=6,
+2_f0,2,<b>__constr__<b>,text;strokeColor=none,none,,
+2_f1,2,🔍 owner,text;strokeColor=none,none,,
+2_f2,2,renounceOwnership,text;strokeColor=none,none,,
+2_mod2_0,-,onlyOwner,mxgraph.bootstrap.rrect,#fff2cc,strokeColor=#d79b00;dashed=1;align=center;rSize=10;fontStyle=0;whiteSpace=wrap;dashPattern=1 1;strokeColor=#d6b656;fontSize=8;fontFamily=Helvetica,"2_f2"
+2_f3,2,transferOwnership,text;strokeColor=none,none,,
+2_mod3_0,-,onlyOwner,mxgraph.bootstrap.rrect,#fff2cc,strokeColor=#d79b00;dashed=1;align=center;rSize=10;fontStyle=0;whiteSpace=wrap;dashPattern=1 1;strokeColor=#d6b656;fontSize=8;fontFamily=Helvetica,"2_f3"
+2_f4,2,🔍 geUnlockTime,text;strokeColor=none,none,,
+2_f5,2,lock,text;strokeColor=none,none,,
+2_mod5_0,-,onlyOwner,mxgraph.bootstrap.rrect,#fff2cc,strokeColor=#d79b00;dashed=1;align=center;rSize=10;fontStyle=0;whiteSpace=wrap;dashPattern=1 1;strokeColor=#d6b656;fontSize=8;fontFamily=Helvetica,"2_f5"
+2_f6,2,unlock,text;strokeColor=none,none,,
+3,-,ELOToken,,#e0e0e0,,
+3_i0,3,Context,mxgraph.bootstrap.rrect;strokeColor=none,#fff2cc;strokeColor=#d6b656;dashed=1,fontSize=6,
+3_i1,3,IERC20,mxgraph.bootstrap.rrect;strokeColor=none,#fff2cc;strokeColor=#d6b656;dashed=1,fontSize=6,
+3_i2,3,IERC20Metadata,mxgraph.bootstrap.rrect;strokeColor=none,#fff2cc;strokeColor=#d6b656;dashed=1,fontSize=6,
+3_i3,3,Ownable,mxgraph.bootstrap.rrect;strokeColor=none,#fff2cc;strokeColor=#d6b656;dashed=1,fontSize=6,
+3_f0,3,<b>__constr__<b>,text;strokeColor=none,none,,
+3_f1,3,🔍 name,text;strokeColor=none,none,,
+3_f2,3,🔍 symbol,text;strokeColor=none,none,,
+3_f3,3,🔍 decimals,text;strokeColor=none,none,,
+3_f4,3,🔍 totalSupply,text;strokeColor=none,none,,
+3_f5,3,🔍 balanceOf,text;strokeColor=none,none,,
+3_f6,3,transfer,text;strokeColor=none,none,,
+3_f7,3,🔍 allowance,text;strokeColor=none,none,,
+3_f8,3,approve,text;strokeColor=none,none,,
+3_f9,3,transferFrom,text;strokeColor=none,none,,
+3_f10,3,increaseAllowance,text;strokeColor=none,none,,
+3_f11,3,decreaseAllowance,text;strokeColor=none,none,,

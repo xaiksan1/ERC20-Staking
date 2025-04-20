@@ -1,4 +1,5 @@
 import Dialog from '@mui/material/Dialog';
+import classes from './AccountDetails.module.css';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
@@ -14,7 +15,8 @@ import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
-import CopyToClipboard from 'components/shared/CopyToClipboard.jsx';
+import Button from '@mui/material/Button';
+import styles from './AccountDetails.module.css';
 import Button from '@mui/material/Button';
 import LogoutIcon from '@mui/icons-material/Logout';
 import { useWalletConnector } from './WalletConnector.jsx';
@@ -40,10 +42,10 @@ const AccountDetails = ({ accountDetailsDialogOpen, handleAccountDetailsDialogTo
       aria-labelledby="alert-dialog-title"
       aria-describedby="alert-dialog-description"
       BackdropProps={{
-        style: { backgroundColor: 'rgba(111, 126, 140, 0.2)', backdropFilter: 'blur(2px)' },
+        className: classes.backdrop,
       }}
       PaperProps={{
-        style: { borderRadius: 25, boxShadow: 'none' },
+        className: 'dialogPaper',
       }}
       fullWidth
       maxWidth="xs"

@@ -1,3 +1,10 @@
 {
-  "compilerOptions": { "baseUrl": "src" }
+  "compilerOptions": {
+    "baseUrl": "src",
+    "module": "commonjs",
+    "target": "es6",
+    "checkJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  }
 }

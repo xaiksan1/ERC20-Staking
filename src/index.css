@@ -46,6 +46,7 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type='number'] {
   -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 .fadeInUp {
@@ -53,7 +54,7 @@ input[type='number'] {
 }
 
 .MuiSnackbarContent-message {
-  max-width: 300px;
+  max-inline-size: 300px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -62,19 +63,22 @@ input[type='number'] {
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    transform: translate(0, 20px);
     -webkit-transform: translate(0, 20px);
+    transform: translate(0, 20px);
   }
   100% {
     opacity: 1;
-    transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
   }
 }
 
 .pulse {
-  width: 10px;
-  height: 10px;
+  inline-size: 10px;
+  block-size: 10px;
   border-radius: 50%;
   box-shadow: 0 0 0 rgba(220, 53, 69, 1);
   -webkit-animation: pulse 2s infinite;

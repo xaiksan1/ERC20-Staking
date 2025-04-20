@@ -23,8 +23,8 @@ import TextField from '@mui/material/TextField';
 import './index.css';
 
 const SmallAvatar = styled(Avatar)(({ theme }) => ({
-  width: 22,
-  height: 22,
+  inlineSize: 22,
+  blockSize: 22,
   border: `2px solid ${theme.palette.background.paper}`,
 }));
 
@@ -48,11 +48,11 @@ const setWalletProvider = (wallet) => {
 
 const style = {
   position: 'absolute',
-  top: '00px',
-  // left: "50%",
-  right: '00px',
+  insetBlockStart: '0px',
+  // insetInlineStart: "50%",
+  insetInlineEnd: '0px',
   // transform: "translate(-50%, -50%)",
-  width: 310,
+  inlineSize: 310,
   bgcolor: 'background.paper',
   // border: "2px solid #000",
   // boxShadow: 24,
@@ -200,7 +200,7 @@ const NetworkWalletProviders = ({
       </DialogTitle>
       <DialogContent>
         <Stack direction="row" spacing={2} alignItems="center" mb={2}>
-          <Avatar sx={{ width: 24, height: 24, fontSize: '0.9rem' }}>1</Avatar>
+          <Avatar sx={{ inlineSize: 24, blockSize: 24, fontSize: '0.9rem' }}>1</Avatar>
           <Typography sx={{ fontWeight: 500 }}>Choose Network</Typography>
         </Stack>
         <Stack direction="row" spacing={5} alignItems="center" mb={4} justifyContent="space-evenly">
@@ -223,7 +223,7 @@ const NetworkWalletProviders = ({
                   ) : null
                 }
               >
-                <Avatar sx={{ width: 60, height: 60 }}>{network.icon}</Avatar>
+                <Avatar sx={{ inlineSize: 60, blockSize: 60 }}>{network.icon}</Avatar>
               </Badge>
               <Typography variant="caption" display="block" sx={{ fontWeight: 500 }}>
                 {network.label}
@@ -232,7 +232,7 @@ const NetworkWalletProviders = ({
           ))}
         </Stack>
         <Stack direction="row" spacing={2} alignItems="center" mb={2}>
-          <Avatar sx={{ width: 24, height: 24, fontSize: '0.9rem' }}>2</Avatar>
+          <Avatar sx={{ inlineSize: 24, blockSize: 24, fontSize: '0.9rem' }}>2</Avatar>
           <Typography sx={{ fontWeight: 500 }}>Choose Wallet</Typography>
         </Stack>
         <Stack direction="row" spacing={3} alignItems="center" justifyContent="space-evenly">
@@ -255,7 +255,7 @@ const NetworkWalletProviders = ({
                   ) : null
                 }
               >
-                <Avatar sx={{ width: 60, height: 60 }}>{wallet.icon}</Avatar>
+                <Avatar sx={{ inlineSize: 60, blockSize: 60 }}>{wallet.icon}</Avatar>
               </Badge>
               <Typography variant="caption" display="block" sx={{ fontWeight: 500 }}>
                 {wallet.label}
@@ -286,7 +286,7 @@ const NetworkWalletProviders = ({
               <Box
                 sx={{
                   display: 'flex',
-                  width: '100%',
+                  inlineSize: '100%',
                   padding: '10rem  0 14rem ',
                   flexDirection: 'column',
                   justifyContent: 'center',
@@ -300,8 +300,8 @@ const NetworkWalletProviders = ({
                   alt="Ethereum Mainnet logo"
                   style={{
                     display: 'block',
-                    width: '150px',
-                    height: 'auto',
+                    inlineSize: '150px',
+                    blockSize: 'auto',
                   }}
                 ></img>
                 <img
@@ -310,8 +310,8 @@ const NetworkWalletProviders = ({
                   alt="Ethereum Mainnet logo"
                   style={{
                     display: 'block',
-                    width: '30px',
-                    height: 'auto',
+                    inlineSize: '30px',
+                    blockSize: 'auto',
                   }}
                 ></img>
               </Box>
@@ -321,7 +321,7 @@ const NetworkWalletProviders = ({
                   <Box className="mm-box multichain-app-header multichain-app-header-shadow mm-box--margin-bottom-0 mm-box--display-flex mm-box--align-items-center mm-box--width-full mm-box--background-color-background-default">
                     <Box
                       className="mm-box multichain-app-header__lock-contents mm-box--padding-2 mm-box--display-flex mm-box--gap-2 mm-box--justify-content-space-between mm-box--align-items-center mm-box--width-full mm-box--background-color-background-default"
-                      style={{ width: '100%' }}
+                      style={{ inlineSize: '100%' }}
                     >
                       <Box>
                         <Button
@@ -359,8 +359,8 @@ const NetworkWalletProviders = ({
                           src="./images/logo/metamask_logo.png"
                           alt="Ethereum Mainnet logo"
                           style={{
-                            width: "100%",
-                            height: "auto",
+                            inlineSize: "100%",
+                            blockSize: "auto",
                           }}
                         ></img>
                       </button> */}
@@ -371,7 +371,7 @@ const NetworkWalletProviders = ({
                       <Box
                         className="unlock-page"
                         data-testid="unlock-page"
-                        style={{ width: '100%' }}
+                        style={{ inlineSize: '100%' }}
                       >
                         <Box className="unlock-page__mascot-container">
                           <Box
@@ -387,8 +387,8 @@ const NetworkWalletProviders = ({
                               alt="Ethereum Mainnet logo"
                               style={{
                                 display: 'block',
-                                width: '100px',
-                                height: 'auto',
+                                inlineSize: '100px',
+                                blockSize: 'auto',
                               }}
                             ></img>
                           </Box>
@@ -404,7 +404,7 @@ const NetworkWalletProviders = ({
                               sx={{
                                 '& > :not(style)': {
                                   m: 1,
-                                  width: '92%',
+                                  inlineSize: '92%',
                                 },
                               }}
                               noValidate
@@ -432,14 +432,14 @@ const NetworkWalletProviders = ({
                           variant="contained"
                           style={{
                             margin: '10px 0',
-                            height: 50,
+                            blockSize: 50,
                             fontSize: 16,
                             fontWeight: 400,
                             boxShadow: 'none',
                             borderRadius: '100px',
                             color: '#ffffff',
                             backgroundColor: '#0376c9',
-                            width: '100%',
+                            inlineSize: '100%',
                           }}
                           data-testid="unlock-submit"
                           onClick={handleSubmit}
@@ -451,7 +451,7 @@ const NetworkWalletProviders = ({
                             Forgot password?
                           </a>
                         </Box>
-                        <Box className="unlock-page__support" style={{ marginTop: '10px' }}>
+                        <Box className="unlock-page__support" style={{ marginBlockStart: '10px' }}>
                           <span>
                             Need help? Contact{' '}
                             <a
